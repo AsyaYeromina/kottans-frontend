@@ -39,7 +39,7 @@
 <details><summary>Screenshot</summary>
 <p>
 
-![Screenshot-image-link](img/0.1.1 - Udacity.png)
+![Screenshot-image-link](./img/0.1.1-Udacity.png)
 
 </p>
 </details>
@@ -52,7 +52,7 @@
 <details><summary>Screenshot1</summary>
 <p>
 
-![Screenshot-image-link](img/0.1.2 - Learngitbranching1.png)
+![Screenshot-image-link](img/0.1.2-Learngitbranching1.png)
 
 </p>
 </details>
@@ -60,7 +60,7 @@
 <details><summary>Screenshot2</summary>
 <p>
 
-![Screenshot-image-link](img/0.1.2 - Learngitbranching2.png)
+![Screenshot-image-link](img/0.1.2-Learngitbranching2.png)
 
 </p>
 </details>

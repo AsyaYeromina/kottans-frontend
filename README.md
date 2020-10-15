@@ -39,7 +39,7 @@
 <details><summary>Screenshot</summary>
 <p>
 
-![Screenshot-image-link](./images/completion-screenshots/version-control-with-git.png)
+![Screenshot-image-link](img/0.1.1 - Udacity.png)
 
 </p>
 </details>
@@ -48,3 +48,19 @@
 - thing that was new to me
 - thing that surprised me
 - thing I intend to use in the future
+
+<details><summary>Screenshot1</summary>
+<p>
+
+![Screenshot-image-link](img/0.1.2 - Learngitbranching1.png)
+
+</p>
+</details>
+
+<details><summary>Screenshot2</summary>
+<p>
+
+![Screenshot-image-link](img/0.1.2 - Learngitbranching2.png)
+
+</p>
+</details>

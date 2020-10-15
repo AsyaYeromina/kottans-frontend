@@ -1,5 +1,5 @@
-# kottans-frontend
-## Repo for [kottans-frontend course tasks](https://github.com/kottans/frontend)
+# kottans-frontend :cat:
+## Repo for [kottans-frontend course tasks](https://github.com/kottans/frontend) :octocat:
 
 ### Curriculum:
 
@@ -39,6 +39,7 @@ The course also reminded me of the commands **git log -p (--patch)** and **git l
 - Thing that surprised me is that I don't know how I lived without **git log --oneline --decorate --graph --all** command before :flushed:
 - I'll definitely use this commands every day!
 
+I certainly would recommend the course for all newbies. It's easy for understanding 
 
 <details><summary>Screenshot</summary>
 <p>
@@ -70,3 +71,9 @@ New for me: difference between rebasing and merging (Rebasing is ok to use when 
 
 </p>
 </details>
+
+#### Additional:
+- added some new git cheatsheets to bookmarks 
+- finished markdown tutorial on Github 
+- finished short course about Shell on udacity while learning Version Control with Git
+---

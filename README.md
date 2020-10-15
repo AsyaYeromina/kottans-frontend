@@ -5,7 +5,7 @@
 
 **General**
 - [x] **0.** [Git basics](https://github.com/kottans/frontend/blob/master/tasks/git-intro.md)
-    - Udacity Git course - **[Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123)**
+    - Udacity Git course - [Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123)
     - [Learn Git branching interactive course](https://learngitbranching.js.org/) 
 - [ ] **1.**  Linux CLI and Networking
 - [ ] **2.**  VCS (hello gitty), GitHub and Collaboration
@@ -32,9 +32,13 @@
 
 ### 0. Git Basics
 #### 0.1. [Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123)
-- thing that was new to me
-- thing that surprised me
-- thing I intend to use in the future
+
+- This Udacity course was more like updating knowledge to me.
+But I also learned about **tagging** and some commands that are going with it (git log --decorate, git describe).
+The course also reminded me of the commands **git log -p (--patch)** and **git log -p --stat**
+- Thing that surprised me is that I don't know how I lived without **git log --oneline --decorate --graph --all** command before :flushed:
+- I'll definitely use this commands every day!
+
 
 <details><summary>Screenshot</summary>
 <p>
@@ -45,9 +49,11 @@
 </details>
 
 #### 0.2. [Learn Git branching interactive course](https://learngitbranching.js.org/)
-- thing that was new to me
-- thing that surprised me
-- thing I intend to use in the future
+- I practiced on this course before, but passed only half of the levels. A few months ago it seemed to me much more complex. 
+This time I've finished all tasks. But it was still hard for me to pass the last level. I definitely should try to pass it one more time after having some practice.
+New for me: difference between rebasing and merging (Rebasing is ok to use when you do not care about the commit history, but the tree readability is important for you. But it's better to use merging if the commit history is very important.
+- thing that surprised me is that cherry-picking is not so complex as it seemed to me before
+- thing I intend to use in the future: cherry-picking :) 
 
 <details><summary>Screenshot1</summary>
 <p>

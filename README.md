@@ -65,7 +65,7 @@ New for me: difference between rebasing and merging (Rebasing is ok to use when 
 <details><summary>Screenshot1</summary>
 <p>
 
-![Screenshot-image-link](task_git_basics/0.0.2-Learngitbranching1.png)
+![Screenshot-image-link](task_git_basics/0.0.2-learngitbranching_1.png)
 
 </p>
 </details>
@@ -73,7 +73,7 @@ New for me: difference between rebasing and merging (Rebasing is ok to use when 
 <details><summary>Screenshot2</summary>
 <p>
 
-![Screenshot-image-link](task_git_basics/0.0.2-Learngitbranching2.png)
+![Screenshot-image-link](task_git_basics/0.0.2-learngitbranching_2.png)
 
 </p>
 </details>

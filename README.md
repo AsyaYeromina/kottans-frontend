@@ -8,27 +8,29 @@
 - [x] **0.** [Git basics](https://github.com/kottans/frontend/blob/master/tasks/git-intro.md)
     - [Course: Version Control with Git (Udasity)](https://www.udacity.com/course/version-control-with-git--ud123)
     - [Course: Learn Git branching](https://learngitbranching.js.org/) 
-- [x] **1.** Linux CLI and Networking
+- [x] **1.** [Linux CLI and Networking](https://github.com/kottans/frontend/blob/master/tasks/linux-cli-http.md)
     - [Course: Linux Survival](https://linuxsurvival.com/linux-tutorial-introduction/)
     - [Article: HTTP: The Protocol Every Web Developer Must Know - Part 1](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
     - [Article: HTTP: The Protocol Every Web Developer Must Know - Part 2](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-2--net-31155)
-- [ ] **2.** VCS (hello gitty), GitHub and Collaboration
+- [x] **2.** [VCS (hello gitty), GitHub and Collaboration](https://github.com/kottans/frontend/blob/master/tasks/git-collaboration.md)
+    - [Course: GitHub & Collaboration](https://classroom.udacity.com/courses/ud456)
+    - [Course: Learn Git branching (last levels)](https://learngitbranching.js.org/)
 
 **Front-End Basics**
-- [ ] **3.** [Intro to HTML & CSS](tasks/html-css-intro.md)
-- [ ] **4.** [Responsive Web Design](tasks/html-css-responsive.md)
-- [ ] **5.** [HTML & CSS Practice](tasks/html-css-popup.md)
-- [ ] **6.** [JavaScript Basics](tasks/js-basics.md)
-- [ ] **7.** [Document Object Model](tasks/js-dom.md) - practice
+- [ ] **3.** [Intro to HTML & CSS](https://github.com/kottans/frontend/blob/master/tasks/html-css-intro.md)
+- [ ] **4.** [Responsive Web Design](https://github.com/kottans/frontend/blob/master/tasks/html-css-responsive.md)
+- [ ] **5.** [HTML & CSS Practice](https://github.com/kottans/frontend/blob/master/tasks/html-css-popup.md)
+- [ ] **6.** [JavaScript Basics](https://github.com/kottans/frontend/blob/master/tasks/js-basics.md)
+- [ ] **7.** [Document Object Model](https://github.com/kottans/frontend/blob/master/tasks/js-dom.md) - practice
 
 **Advanced Topics**
-- [ ] **8.** [Building a Tiny JS World (pre-OOP)](tasks/js-pre-oop.md) - practice
-- [ ] **9.** [Object oriented JS](tasks/js-oop.md) - practice
-- [ ] **10.** [OOP exercise](tasks/js-post-oop.md) - practice
-- [ ] **11.** [Offline Web Applications](tasks/app-design-offline.md)
-- [ ] **12.** [Memory pair game](tasks/memory-pair-game.md) — real project!
-- [ ] **13.** [Website Performance Optimization](tasks/app-design-performance.md)
-- [ ] **14.** [Friends App](tasks/friends-app.md) - real project!
+- [ ] **8.** [Building a Tiny JS World (pre-OOP)](https://github.com/kottans/frontend/blob/master/tasks/js-pre-oop.md) - practice
+- [ ] **9.** [Object oriented JS](https://github.com/kottans/frontend/blob/master/tasks/js-oop.md) - practice
+- [ ] **10.** [OOP exercise](https://github.com/kottans/frontend/blob/master/tasks/js-post-oop.md) - practice
+- [ ] **11.** [Offline Web Applications](https://github.com/kottans/frontend/blob/master/tasks/app-design-offline.md)
+- [ ] **12.** [Memory pair game](https://github.com/kottans/frontend/blob/master/tasks/memory-pair-game.md) — real project!
+- [ ] **13.** [Website Performance Optimization](https://github.com/kottans/frontend/blob/master/tasks/app-design-performance.md)
+- [ ] **14.** [Friends App](https://github.com/kottans/frontend/blob/master/tasks/friends-app.md) - real project!
 ---
 
 # Stage 0. Self-Study
@@ -143,3 +145,7 @@ It was interesting to read about persistent and parallel connections and caching
 - It was a little surprise for me how much other info is transferred between the client and the server, in addition to the information that the user requests.
 - The article is very rich for new information. So it worth re-reading it in the future for deeper understanding.
 
+
+### 0.2. Git for Team Collaboration
+
+#### 0.2.1. 

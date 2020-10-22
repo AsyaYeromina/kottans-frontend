@@ -153,7 +153,7 @@ It was interesting to read about persistent and parallel connections and caching
 - The course was more like a repetition of previously used knowledge about `git remore` commands, `push`, `pull`, `fetch`. 
 - Now the difference between `pull` and `fetch` seems more clear to me. (`fetch` + `merge` = `pull`)
 I learned a lot of new commands for viewing repo history which are useful for collaboration. 
-- I think I'll use such commands (): 
+- I think I'll use such commands: 
   - `git shortlog` for showing all contributors of a repo.
   - `git log --grep=<someword>` search by keyword in the commit messages.
   - `git log --author=<Authorname>` search by author 

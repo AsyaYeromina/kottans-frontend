@@ -148,4 +148,43 @@ It was interesting to read about persistent and parallel connections and caching
 
 ### 0.2. Git for Team Collaboration
 
-#### 0.2.1. 
+#### 0.2.1. [Course: GitHub & Collaboration](https://classroom.udacity.com/courses/ud456)
+
+- The course was more like a repetition of previously used knowledge about `git remore` commands, `push`, `pull`, `fetch`. 
+- Now the difference between `pull` and `fetch` seems more clear to me. (`fetch` + `merge` = `pull`)
+I learned a lot of new commands for viewing repo history which are useful for collaboration. 
+- I think I'll use such commands (): 
+  - `git shortlog` for showing all contributors of a repo.
+  - `git log --grep=<someword>` search by keyword in the commit messages.
+  - `git log --author=<Authorname>` search by author 
+  - `git show SHA` - search commit by SHA 
+  - `git remote rename <newRepoName> <oldRepoName>` to rename remote repositories (e.g. origin or upstream)
+  - `git rebase -i HEAD~3` rebase last commits into 1 (interactive)
+  - `git push -f` - Force Pushing
+
+<details><summary>Screenshot1</summary>
+<p>
+
+![Screenshot-image-link](task_git_collaboration/0.2.1-udacity_git_colaboration.png)
+
+</p>
+</details>
+
+#### 0.2.2. [Course: Learn Git branching (last levels)](https://learngitbranching.js.org/)
+I had passed it while doing task 0.0.Git Basics.
+
+<details><summary>Screenshot1</summary>
+<p>
+
+![Screenshot-image-link](task_git_basics/0.0.2-learngitbranching_1.png)
+
+</p>
+</details>
+
+<details><summary>Screenshot2</summary>
+<p>
+
+![Screenshot-image-link](task_git_basics/0.0.2-learngitbranching_2.png)
+
+</p>
+</details>

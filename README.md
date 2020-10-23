@@ -34,12 +34,13 @@
 - [ ] **12.** [Memory pair game](https://github.com/kottans/frontend/blob/master/tasks/memory-pair-game.md) — real project!
 - [ ] **13.** [Website Performance Optimization](https://github.com/kottans/frontend/blob/master/tasks/app-design-performance.md)
 - [ ] **14.** [Friends App](https://github.com/kottans/frontend/blob/master/tasks/friends-app.md) - real project!
+
 ---
 
 # Stage 0. Self-Study
----
 
 ## General
+---
 
 ### 0.0. Git Basics
 #### 0.0.1. [Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123)
@@ -87,6 +88,7 @@ New for me: difference between rebasing and merging (Rebasing is ok to use when 
 - added some new git cheatsheets to bookmarks 
 - finished markdown tutorial on Github 
 - finished short course about Shell on udacity while learning Version Control with Git
+
 ---
 
 ### 0.1. Linux CLI, and HTTP
@@ -148,6 +150,7 @@ It was interesting to read about persistent and parallel connections and caching
 - It was a little surprise for me how much other info is transferred between the client and the server, in addition to the information that the user requests.
 - The article is very rich for new information. So it worth re-reading it in the future for deeper understanding.
 
+---
 
 ### 0.2. Git for Team Collaboration
 
@@ -165,13 +168,14 @@ I learned a lot of new commands for viewing repo history which are useful for co
   - `git rebase -i HEAD~3` rebase last commits into 1 (interactive)
   - `git push -f` - Force Pushing
 
-<details><summary>Screenshot1</summary>
+<details><summary>Screenshot</summary>
 <p>
 
 ![Screenshot-image-link](task_git_collaboration/0.2.1-udacity_git_colaboration.png)
 
 </p>
 </details>
+
 
 #### 0.2.2. [Course: Learn Git branching (last levels)](https://learngitbranching.js.org/)
 I had passed it while doing task 0.0.Git Basics.
@@ -191,3 +195,33 @@ I had passed it while doing task 0.0.Git Basics.
 
 </p>
 </details>
+
+---
+
+## Front-End Basics
+---
+
+### 0.3. Intro to HTML & CSS
+
+#### 0.3.1. [Course: Intro to HTML & CSS (Udasity)](https://www.udacity.com/course/intro-to-html-and-css--ud304)
+
+
+
+
+
+
+
+<!-- <details><summary>Screenshot</summary>
+<p>
+
+![Screenshot-image-link](task_html_css_intro/0.3.1-html_css_intro.png)
+
+</p>
+</details> -->
+
+
+
+
+
+<!-- #### 0.3.2. [Course: Learn HTML(Codeacademy)](https://www.codecademy.com/learn/learn-html)
+#### 0.3.3. [Course: Learn CSS(Codeacademy)](https://www.codecademy.com/learn/learn-css) -->

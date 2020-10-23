@@ -17,7 +17,10 @@
     - [Course: Learn Git branching (last levels)](https://learngitbranching.js.org/)
 
 **Front-End Basics**
-- [ ] **3.** [Intro to HTML & CSS](https://github.com/kottans/frontend/blob/master/tasks/html-css-intro.md)
+- [x] **3.** [Intro to HTML & CSS](https://github.com/kottans/frontend/blob/master/tasks/html-css-intro.md)
+    - [Course: Intro to HTML & CSS (Udasity)](https://www.udacity.com/course/intro-to-html-and-css--ud304)
+    - [Course: Learn HTML(Codeacademy)](https://www.codecademy.com/learn/learn-html)
+    - [Course: Learn CSS(Codeacademy)](https://www.codecademy.com/learn/learn-css)
 - [ ] **4.** [Responsive Web Design](https://github.com/kottans/frontend/blob/master/tasks/html-css-responsive.md)
 - [ ] **5.** [HTML & CSS Practice](https://github.com/kottans/frontend/blob/master/tasks/html-css-popup.md)
 - [ ] **6.** [JavaScript Basics](https://github.com/kottans/frontend/blob/master/tasks/js-basics.md)

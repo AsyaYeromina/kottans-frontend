@@ -205,21 +205,17 @@ I had passed it while doing task 0.0.Git Basics.
 
 #### 0.3.1. [Course: Intro to HTML & CSS (Udasity)](https://www.udacity.com/course/intro-to-html-and-css--ud304)
 
+It's a useful course for making first steps in HTML and CSS. 
+There was not new info for me.
 
 
-
-
-
-
-<!-- <details><summary>Screenshot</summary>
+<details><summary>Screenshot</summary>
 <p>
 
-![Screenshot-image-link](task_html_css_intro/0.3.1-html_css_intro.png)
+![Screenshot-image-link](task_html_css_intro/0.3.1-udacity_intro_html_css.png)
 
 </p>
-</details> -->
-
-
+</details>
 
 
 

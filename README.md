@@ -208,7 +208,6 @@ I had passed it while doing task 0.0.Git Basics.
 It's a useful course for making first steps in HTML and CSS. 
 There was not new info for me.
 
-
 <details><summary>Screenshot</summary>
 <p>
 
@@ -217,7 +216,46 @@ There was not new info for me.
 </p>
 </details>
 
+#### 0.3.2. [Course: Learn HTML(Codeacademy)](https://www.codecademy.com/learn/learn-html)
+It's a useful course for making first steps in HTML. 
+New for me: 
+- tag for incerting video
+
+``` 
+    <video src="myVideo.mp4" width="320" height="240" controls>
+    Video not supported
+    </video>
+```
+- tag for incerting audio
+
+```
+    <audio autoplay controls>
+    <source src="AudioFile.mp3" type="audio/mp3">
+    </audio>
+```
+- Datalist element for making input with ability to select a proposed variant (like a select input) and ability to enter user's own variant. 
+``` 
+    <label for="idname">Choose a flavor:</label>
+    <input list="datalistid" id="idname" name="idname" />
+    <datalist id="datalistid">
+        <option value="Chocolate">
+        <option value="Coconut">
+    </datalist>
+```
+- tag `<embed>` for embeding media content from an external source 
+
+```
+    <embed src="download.gif"/>
+```
+- Validation: matching a pattern (for example pattern which checks that the user provided only numbers, min 14 digits - max 16 digits `pattern="[0-9]{14,16}`; or `[a-zA-Z0-9]+` fot letters and numbers)
 
 
-<!-- #### 0.3.2. [Course: Learn HTML(Codeacademy)](https://www.codecademy.com/learn/learn-html)
-#### 0.3.3. [Course: Learn CSS(Codeacademy)](https://www.codecademy.com/learn/learn-css) -->
+<details><summary>Screenshot</summary>
+<p>
+
+![Screenshot-image-link](task_html_css_intro/0.3.2-codecademy_learn_html.png)
+
+</p>
+</details>
+
+<!-- #### 0.3.3. [Course: Learn CSS(Codeacademy)](https://www.codecademy.com/learn/learn-css) -->

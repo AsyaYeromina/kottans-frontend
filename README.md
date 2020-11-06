@@ -21,8 +21,10 @@
     - [Course: Intro to HTML & CSS (Udasity)](https://www.udacity.com/course/intro-to-html-and-css--ud304)
     - [Course: Learn HTML(Codeacademy)](https://www.codecademy.com/learn/learn-html)
     - [Course: Learn CSS(Codeacademy)](https://www.codecademy.com/learn/learn-css)
-- [ ] **4.** [Responsive Web Design](https://github.com/kottans/frontend/blob/master/tasks/html-css-responsive.md)
-- [ ] **5.** [HTML & CSS Practice](https://github.com/kottans/frontend/blob/master/tasks/html-css-popup.md)
+- [x] **4.** [Responsive Web Design](https://github.com/kottans/frontend/blob/master/tasks/html-css-responsive.md)
+    - [Course: Responsive Web Design Fundamentals](https://www.udacity.com/course/responsive-web-design-fundamentals--ud893)
+    - [Game: Flexbox froggy](http://flexboxfroggy.com/)
+- [ ] **5.** [HTML & CSS **Practice**](https://github.com/kottans/frontend/blob/master/tasks/html-css-popup.md)
 - [ ] **6.** [JavaScript Basics](https://github.com/kottans/frontend/blob/master/tasks/js-basics.md)
 - [ ] **7.** [Document Object Model](https://github.com/kottans/frontend/blob/master/tasks/js-dom.md) - practice
 

@@ -258,4 +258,43 @@ New for me:
 </p>
 </details>
 
-<!-- #### 0.3.3. [Course: Learn CSS(Codeacademy)](https://www.codecademy.com/learn/learn-css) -->
+
+#### 0.3.3. [Course: Learn CSS(Codeacademy)](https://www.codecademy.com/learn/learn-css)
+
+Flex and grid properties that were new for me: 
+- Property `flex:` is short for grow, shrink, basis properties.
+- Property `flex-flow:` is for flex-wrap and flex-direction properties in one line.
+- `grid-template:` short for row and column sizes. For example `grid-template: 200px 300px / 20% 10% 70%;`.
+- `repeat` can be used not only for one value. This line `grid-template-columns: repeat(2, 20px 50px)` is equal to 20px 50px 20px 50px.
+- Minmax property should have min and max values in brackets: `grid-template-columns: 100px minmax(100px, 500px) 100px;`.
+- Using word `span`. For example `grid-column: 4 / span 2;` means start at column 4 and take 2 columns of space.
+- `grid-area:` is short for grid-row-start, grid-column-start, grid-row-end, grid-column-end. For example `grid-area: 2 / 3 / 4 / span 5;`
+- `grid-template-areas` for giving a name for areas and maintaining their position. It's like an alternative way of specifying the position.
+- `grid-auto-rows and -columns` for maintaining sizes of rows and columns which are not specified before. The first line specifies first 2 rows and 2 columns, the second line makes all other rows 50px width 
+```
+    grid: repeat(2, 100px) / repeat(2, 150px); 
+    grid-auto-rows: 50px;
+```
+- `grid-auto-flow` property specifies the order in which new elements are rendered: rows(default), columns, dense (to fill holes earlier in the grid layout if smaller elements are added)
+  
+New transition properties for me: 
+- `transition-property:` (color, size ...)
+- `transition-duration:` (time: s, ms)
+- `transition-delay:` (time: s, ms)
+- `transition-timing-function:` (ease-in, ease-out, ease-in-out, linear)
+- short rule: `transition: color 1.5s linear 0.5s;` 
+
+Using new knowledge:
+- It would be great to remember some of properties that were made for making code shorter. This will help me to understand code written by others. But maybe using such shortening can make a code more complex for understanding it from the first sight. So i'm not sure I'll use all of them.
+- I'll definitely use such properties for grids as: `grid-template:`, `repeat`, `span`, `grid-area`, `grid-template-areas`
+
+
+<details><summary>Screenshot</summary>
+<p>
+
+![Screenshot-image-link](task_html_css_intro/0.3.3-codecademy_learn_css.png)
+
+</p>
+</details>
+
+---

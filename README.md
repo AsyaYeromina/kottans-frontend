@@ -206,7 +206,7 @@ I had passed it while doing task 0.0.Git Basics.
 #### 0.3.1. [Course: Intro to HTML & CSS (Udasity)](https://www.udacity.com/course/intro-to-html-and-css--ud304)
 
 It's a useful course for making first steps in HTML and CSS. 
-There was not new info for me.
+There was no new info for me.
 
 <details><summary>Screenshot</summary>
 <p>
@@ -219,21 +219,21 @@ There was not new info for me.
 #### 0.3.2. [Course: Learn HTML(Codeacademy)](https://www.codecademy.com/learn/learn-html)
 It's a useful course for making first steps in HTML. 
 New for me: 
-- tag for incerting video
+- tag for inserting video
 
 ``` 
     <video src="myVideo.mp4" width="320" height="240" controls>
     Video not supported
     </video>
 ```
-- tag for incerting audio
+- tag for inserting audio
 
 ```
     <audio autoplay controls>
     <source src="AudioFile.mp3" type="audio/mp3">
     </audio>
 ```
-- Datalist element for making input with ability to select a proposed variant (like a select input) and ability to enter user's own variant. 
+- Datalist element for making input with the ability to select a proposed variant (like a select input) and ability to enter user's own variant. 
 ``` 
     <label for="idname">Choose a flavor:</label>
     <input list="datalistid" id="idname" name="idname" />
@@ -242,12 +242,12 @@ New for me:
         <option value="Coconut">
     </datalist>
 ```
-- tag `<embed>` for embeding media content from an external source 
+- tag `<embed>` for embedding media content from an external source 
 
 ```
     <embed src="download.gif"/>
 ```
-- Validation: matching a pattern (for example pattern which checks that the user provided only numbers, min 14 digits - max 16 digits `pattern="[0-9]{14,16}`; or `[a-zA-Z0-9]+` fot letters and numbers)
+- Validation: matching a pattern (for example pattern which checks that the user provided only numbers, min 14 digits - max 16 digits `pattern="[0-9]{14,16}`; or `[a-zA-Z0-9]+` for letters and numbers)
 
 
 <details><summary>Screenshot</summary>
@@ -270,7 +270,7 @@ Flex and grid properties that were new for me:
 - Using word `span`. For example `grid-column: 4 / span 2;` means start at column 4 and take 2 columns of space.
 - `grid-area:` is short for grid-row-start, grid-column-start, grid-row-end, grid-column-end. For example `grid-area: 2 / 3 / 4 / span 5;`
 - `grid-template-areas` for giving a name for areas and maintaining their position. It's like an alternative way of specifying the position.
-- `grid-auto-rows and -columns` for maintaining sizes of rows and columns which are not specified before. The first line specifies first 2 rows and 2 columns, the second line makes all other rows 50px width 
+- `grid-auto-rows and -columns` for maintaining sizes of rows and columns which are not specified before. The first line specifies the first 2 rows and 2 columns, the second line makes all other rows 50px width 
 ```
     grid: repeat(2, 100px) / repeat(2, 150px); 
     grid-auto-rows: 50px;
@@ -285,7 +285,7 @@ New transition properties for me:
 - short rule: `transition: color 1.5s linear 0.5s;` 
 
 Using new knowledge:
-- It would be great to remember some of properties that were made for making code shorter. This will help me to understand code written by others. But maybe using such shortening can make a code more complex for understanding it from the first sight. So i'm not sure I'll use all of them.
+- It would be great to remember some of the properties that were made for making code shorter. This will help me to understand code written by others. But maybe using such shortening can make a code more complex for understanding it from the first sight. So i'm not sure I'll use all of them.
 - I'll definitely use such properties for grids as: `grid-template:`, `repeat`, `span`, `grid-area`, `grid-template-areas`
 
 

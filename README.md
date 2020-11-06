@@ -298,3 +298,31 @@ Using new knowledge:
 </details>
 
 ---
+
+### 0.4. Responsive Web Design
+
+#### 0.4.1. [Course: Responsive Web Design Fundamentals](https://www.udacity.com/course/responsive-web-design-fundamentals--ud893)
+
+
+
+
+#### 0.4.2. [Game: Flexbox froggy](http://flexboxfroggy.com/)
+
+I finished the Frogger game and Grid garden game before the course started.
+
+<details><summary>Screenshot</summary>
+<p>
+
+![Screenshot-image-link](task_responsive_web_design/0.4.2.-flexbox_froggy.png)
+
+</p>
+</details>
+
+<details><summary>Screenshot</summary>
+<p>
+
+![Screenshot-image-link](task_responsive_web_design/0.4.2.-grid_garden.png)
+
+</p>
+</details>
+

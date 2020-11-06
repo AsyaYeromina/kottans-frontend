@@ -303,6 +303,26 @@ Using new knowledge:
 
 #### 0.4.1. [Course: Responsive Web Design Fundamentals](https://www.udacity.com/course/responsive-web-design-fundamentals--ud893)
 
+New for me:
+- Responsive pattrerns (easy to understand with [this examples](https://bradfrost.github.io/this-is-responsive/patterns.html#off-canvas))
+  - [Column Drop](https://codepen.io/bradfrost/full/zhCwd)
+  - [Mostly Fluid](https://codepen.io/bradfrost/full/Iardn)
+  - [Layout Shifter](https://codepen.io/bradfrost/full/LtryA)
+  - [Off Canvas](https://codepen.io/grayghostvisuals/full/hemqu)
+
+
+Also I've found that making tables responsive is a little bit tricky. But I'll use the ideas given in the course:
+- to show only short content (jy small screens) if it is possible
+- to display table as block 
+- to make it scrollable (with width: 100% and overflow-x: auto) 
+
+<details><summary>Screenshot</summary>
+<p>
+
+![Screenshot-image-link](task_responsive_web_design/0.4.1.-udacity_responsive_web_design.png)
+
+</p>
+</details>
 
 
 
@@ -326,3 +346,4 @@ I finished the Frogger game and Grid garden game before the course started.
 </p>
 </details>
 
+---

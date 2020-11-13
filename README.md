@@ -24,8 +24,10 @@
 - [x] **4.** [Responsive Web Design](https://github.com/kottans/frontend/blob/master/tasks/html-css-responsive.md)
     - [Course: Responsive Web Design Fundamentals](https://www.udacity.com/course/responsive-web-design-fundamentals--ud893)
     - [Game: Flexbox froggy](http://flexboxfroggy.com/)
-- [ ] **5.** [HTML & CSS **Practice**](https://github.com/kottans/frontend/blob/master/tasks/html-css-popup.md)
-- [ ] **6.** [JavaScript Basics](https://github.com/kottans/frontend/blob/master/tasks/js-basics.md)
+- [x] **5.** [HTML & CSS **Practice**](https://github.com/kottans/frontend/blob/master/tasks/html-css-popup.md)
+- [x] **6.** [JavaScript Basics](https://github.com/kottans/frontend/blob/master/tasks/js-basics.md)
+    - [Course: Intro to JS](https://classroom.udacity.com/courses/ud803)
+    - FreeCodeCamp exercises
 - [ ] **7.** [Document Object Model](https://github.com/kottans/frontend/blob/master/tasks/js-dom.md) - practice
 
 **Advanced Topics**
@@ -349,3 +351,32 @@ I finished the Frogger game and Grid garden game before the course started.
 </details>
 
 ---
+
+
+### 0.5. [HTML & CSS **Practice**](https://github.com/kottans/frontend/blob/master/tasks/html-css-popup.md)
+
+[Demo](https://asyayeromina.github.io/kottans-task_html-css-popup/)
+[Code base](https://github.com/AsyaYeromina/kottans-task_html-css-popup)
+
+Remark for me:
+- Don't forget to check code in validator before requesring a review. 
+
+---
+
+### 0.6. [JavaScript Basics](https://github.com/kottans/frontend/blob/master/tasks/js-basics.md)
+
+#### 0.6.1. [Intro to JS](https://classroom.udacity.com/courses/ud803)
+
+
+<!-- 
+#### 0.6.2. Exercises on freecodecamp.org
+- [Basic JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/) - Basic JavaScript language features. ~100 tiny exercises, 2-3 hrs to complete.
+- [ES6 Challenges](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/es6/) - JS ES6 features. Complete initial 19 exercises (till **Write Concise Declarative Functions with ES6**), 3-4 hrs to complete.
+- [Basic Data Structures](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-data-structures/) - Manipulate arrays and objects. Complete all exercises (20). 3-4 hrs to complete.
+- [Basic Algorithm Scripting](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-algorithm-scripting/) Basic algorithms. Solve all problems (<20). 4-5 hrs to complete.
+- [Functional Programming](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/functional-programming/) Complete all exercises (<25). 2-3 hrs to complete.
+- [Algorithm Scripting Challenges](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting) Intermediate algorithms. Solve initial 11 problems (till **Convert HTML Entities**), 3-5 hrs to complete
+- :warning: In [**Pig Latin**](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/pig-latin/exercise English letter **Y** is considered a consonant
+- :warning: In [**Convert HTML Entities**](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/convert-html-entitiesexercise **DO NOT** copy-paste HTML entities (`'&amp;'`, `'&lt'` etc.) from the testas those will contain invisible non-breaking spaces and the code won't work as expected. Type them instead.
+ -->
+

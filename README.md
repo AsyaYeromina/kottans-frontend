@@ -355,8 +355,9 @@ I finished the Frogger game and Grid garden game before the course started.
 
 ### 0.5. [HTML & CSS **Practice**](https://github.com/kottans/frontend/blob/master/tasks/html-css-popup.md)
 
-[Demo](https://asyayeromina.github.io/kottans-task_html-css-popup/)
-[Code base](https://github.com/AsyaYeromina/kottans-task_html-css-popup)
+Watch the [Demo](https://asyayeromina.github.io/kottans-task_html-css-popup/) 
+
+And check the [Code base](https://github.com/AsyaYeromina/kottans-task_html-css-popup)
 
 Remark for me:
 - Don't forget to check code in validator before requesring a review. 

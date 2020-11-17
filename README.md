@@ -367,6 +367,52 @@ Remark for me:
 
 #### 0.6.1. [Intro to JS](https://classroom.udacity.com/courses/ud803)
 
+**Some things to remember:**
+- about strings: 
+  - special characters for strings: `\"` to prevent reading " as the end of the string; 
+  - `\n` start a newline in the string; 
+  - `\t` tab;
+  - `\\` backslash;
+- comments in code (`//` and `/* */`)
+- `null` means nothing; `undefined` is when the value doesn't exist;
+
+**New for me :**
+- Now I've understood the difference between strongly typed languages and loosely typed. In JS :
+  - `0 == false` and `' ' == false` and `"1" == true` return true (because of the **Type Conversion**).
+  - If we use `===` (strict equality) the Type Conversion will not work (type will be taken into account and `"1" === 1` will return false).
+  - **Implicit type coercion** - is when a number is converting to a string when is concatenating with a string.
+- Logical operators `&&` - AND and `||` - OR and `!` - NOT 
+- **Short-circuiting** (замыкание) when one bolean value is enough to have the result of an expression (for expressions with `&&` the result will be allways false if the 1st value is false; and expression with `||` will allways return true if the 1st statement is true);
+- 6 falsy values in JS:
+  - the Boolean value `false`
+  - the `null` type
+  - the `undefined` type
+  - the number `0`
+  - the empty string `""`
+  - the odd value `NaN`
+- **Ternary operator** (conditional ? (if condition is true) : (if condition is false))
+- **Switch statements** instead of if...else statements:
+```
+var varName = "b";
+switch (varName) {
+    case "a": 
+    // if varName = "a"
+        console.log("You selected a");
+    break;
+    case "b::
+    // if varName = "b"
+        console.log("You selected b");
+    break;
+}
+```
+
+Surprise for me: 
+I thought that things like Short-circuiting is much more complicated for understanding.
+
+
+
+
+
 
 <!-- 
 #### 0.6.2. Exercises on freecodecamp.org

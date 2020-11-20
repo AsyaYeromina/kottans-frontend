@@ -391,7 +391,7 @@ Remark for me:
   - If we use `===` (strict equality) the Type Conversion will not work (type will be taken into account and `"1" === 1` will return false).
   - **Implicit type coercion** - is when a number is converting to a string when is concatenating with a string.
 - Logical operators `&&` - AND and `||` - OR and `!` - NOT 
-- **Short-circuiting** (замыкание) when one bolean value is enough to have the result of an expression (for expressions with `&&` the result will be allways false if the 1st value is false; and expression with `||` will allways return true if the 1st statement is true);
+- **Short-circuiting** (замыкание) when one boolean value is enough to have the result of an expression (for an expressions with `&&` the result will be always false if the 1st value is false; and expression with `||` will always return true if the 1st statement is true);
 - 6 falsy values in JS:
   - the Boolean value `false`
   - the `null` type
@@ -502,7 +502,7 @@ var avg = findAverage(5, 9); // 5 and 9 are arguments
 
         > 4 \\ arrName = ["a", "b", "c", "d"]
         ```
-    -  *pop()* method removes the last element from the array and retuns is
+    -  *pop()* method removes the last element from the array and returns is
         ```
         var arrName = ["a", "b", "c"];
         arrName.pop();
@@ -518,7 +518,7 @@ var avg = findAverage(5, 9); // 5 and 9 are arguments
             // quantity of elements to be deleted - 1; 
             // element(s) to be added on this place ("d" will be added);
 
-        > "c" // retuns deleted item 
+        > "c" // returns deleted item 
         ```
     - *reverse()* reverses elements in array;
     - *sort()* sorts;
@@ -543,7 +543,7 @@ var avg = findAverage(5, 9); // 5 and 9 are arguments
         console.log("Word " + index + " in " + array.toString() + " is " + element);
     });
     ```
-- **Map** method (returns new array); using index is not nesessary
+- **Map** method (returns new array); using index is not necessary
     ```
     var arrName = ["a", "b", "c"];
     var newArrName = arrName.map(function(element) {
@@ -553,7 +553,7 @@ var avg = findAverage(5, 9); // 5 and 9 are arguments
         // the arrName stays the same ["a", "b", "c"]
         // but newArrName is ["a string", "b string", "c string"]
     ```
-- **Array in array**. You can loop througth the arrays:
+- **Array in array**. You can loop through the arrays:
     ```
     var arrOfArr = [
         ["a", "b", "c"], 
@@ -565,7 +565,7 @@ var avg = findAverage(5, 9); // 5 and 9 are arguments
     }
     //prints 3 arrows
     ```
-    Or you can loop througth a loop of each array in array
+    Or you can loop through a loop of each array in array
     ```
     var arrOfArr = [
         ["a", "b", "c"], 
@@ -580,7 +580,8 @@ var avg = findAverage(5, 9); // 5 and 9 are arguments
     };
     //prints each element
     ```
-- **Objects**
+**OBJECTS**
+
     ```
     var objectName = { 
     property1: "value",
@@ -595,12 +596,13 @@ var avg = findAverage(5, 9); // 5 and 9 are arguments
     }
     };
     ```
-    to return the value from an object one can use this 2 ways which are equivalent:
-    `objectName["property"] ` or `objectName.property`
-    to return the method use `objectName.methodName()`
-    Don't use numbers as first item in propery name of an object. 
-    Don't use spaces and hyphens (-) in prop.names. Use cammelCase.
-    Better not to use " " in prop.names.
+
+to return the value from an object one can use this 2 ways which are equivalent:
+`objectName["property"] ` or `objectName.property`
+to return the method use `objectName.methodName()`
+Don't use numbers as first item in propery name of an object. 
+Don't use spaces and hyphens (-) in prop.names. Use cammelCase.
+Better not to use " " in prop.names.
 
 </p>
 </details>

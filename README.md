@@ -368,14 +368,17 @@ Remark for me:
 
 #### 0.6.1. [Intro to JS](https://classroom.udacity.com/courses/ud803)
 
-**Some things to remember:**
+**Some small things to remember:**
 - about strings: 
   - special characters for strings: `\"` to prevent reading " as the end of the string; 
   - `\n` start a newline in the string; 
   - `\t` tab;
   - `\\` backslash;
-- comments in code (`//` and `/* */`)
 - `null` means nothing; `undefined` is when the value doesn't exist;
+- Difference between variables:
+  -  `let` used to declare a variable in any scope - **Global**, **Local**, or **Block**
+  -  `const` the same as `let` but the value can't be changed
+  -  `var` old one; used to declare a variable in **Global** or **Local** scope;
 
 **New for me :**
 - Now I've understood the difference between strongly typed languages and loosely typed. In JS :
@@ -407,8 +410,197 @@ switch (varName) {
 }
 ```
 
+**LOOPS**
+
+- **While loops** : 
+```
+var start = 0; // when to start
+while (start < 10) { // when to stop
+  console.log(start);
+  start = start + 2; // how to get to the next item
+}
+```
+- **For loops**
+```
+for (var i = 0; i < 6; i++) {
+  console.log("Printing out i = " + i);
+}
+```
+
+**FUNCTIONS**
+
+```
+function findAverage(x, y) { // x and y are parameters (variables)
+  var answer = (x + y) / 2; // Local variable "answer"
+  return answer;
+}
+var avg = findAverage(5, 9); // 5 and 9 are arguments 
+```
+
+- **function declaration** are hoisted (function is loaded before the script runs); 
+    ```
+    function nameOfFunction(argument) {
+      //some code
+    }
+    ```
+- **function expressions** are not hoisted;
+    ```
+    var nameOfFunction = function(argument) {
+      //some code
+    }
+    ```
+    - *Anonymous function expression*
+        ```
+        var doSomething = function(y) {
+        return y + 1;
+        };
+        ```
+    - *Named function expressions* () are declared and returned with a variable, but also have a name
+        ```
+        var nameOfFunction = function name(argument) {
+        //some code
+        }
+        nameOfFunction();
+        ```
+    - *Inline function expressions* is when a function is assigned to a variable
+        ```
+        <!-- function declaration that takes in two arguments: a function for displaying
+        a message, along with a name of a movie -->
+
+        function movies(messageFunction, name) {
+            messageFunction(name);
+        }
+        
+        <!-- call the movies function, pass in the function and name of movie -->
+
+        movies(function displayFavorite(movieName) {
+            console.log("My favorite movie is " + movieName);
+        }, "Finding Nemo");
+        ```
+- **Сallback** is a function which is passed into another function.
+- **Shadowing** in scope - is when the variable in function/local scope is rewriting the variable in global scope. To avoid this, we should re-declare it inside  the function.
+
+**ARRAYS**
+
+- **Arrays' properties and methods**:
+    -  *length* property returns the number of elements
+        ```
+        var arrName = ["a", "b", "c"];
+        console.log(arrName.length);
+
+        > 3
+        ```
+    -  *push()* method adds an element to the end of the array and returns the number of elements 
+        ```
+        var arrName = ["a", "b", "c"];
+        arrName.push("d");
+
+        > 4 \\ arrName = ["a", "b", "c", "d"]
+        ```
+    -  *pop()* method removes the last element from the array and retuns is
+        ```
+        var arrName = ["a", "b", "c"];
+        arrName.pop();
+
+        > "c"
+        ```
+    -  *splice()* removes and adds elements from anywhere; lets you specify the index of an element; returns the element that have been deleted;
+        ```
+        var arrName = ["a", "b", "c"];
+        arrName.splice(2, 1, "d"); 
+        
+            // position of the item that will be deleted - 2 (third element "c"); 
+            // quantity of elements to be deleted - 1; 
+            // element(s) to be added on this place ("d" will be added);
+
+        > "c" // retuns deleted item 
+        ```
+    - *reverse()* reverses elements in array;
+    - *sort()* sorts;
+    - *shift()* removes;
+    - *join()* converts strings into 1 string;
+    - 
+- **Array loops** 
+    ```
+    var arrName = ["a", "b", "c"];
+
+        // the variable `i` is used to step through each element in the array
+
+    for (var i = 0; i < arrName.length; i++) {
+    arrName[i] += " string";
+    }
+        // Now the array is ["a string", "b string", "c string"]
+    ```
+- **ForEach loop** method 
+    ```
+    var words = ["cat", "in", "hat"];
+    words.forEach(function(element, index, array) {
+        console.log("Word " + index + " in " + array.toString() + " is " + element);
+    });
+    ```
+- **Map** method (returns new array); using index is not nesessary
+    ```
+    var arrName = ["a", "b", "c"];
+    var newArrName = arrName.map(function(element) {
+        element += " string";
+        return element;
+    });
+        // the arrName stays the same ["a", "b", "c"]
+        // but newArrName is ["a string", "b string", "c string"]
+    ```
+- **Array in array**. You can loop througth the arrays:
+    ```
+    var arrOfArr = [
+        ["a", "b", "c"], 
+        ["a1", "b1", "c1"], 
+        ["a2", "b2", "b3"]];
+
+    for (var row = 0; row < arrOfArr.length; row++) {
+    console.log(arrOfArr[row]);
+    }
+    //prints 3 arrows
+    ```
+    Or you can loop througth a loop of each array in array
+    ```
+    var arrOfArr = [
+        ["a", "b", "c"], 
+        ["a1", "b1", "c1"], 
+        ["a2", "b2", "b3"]];
+
+    for (var row = 0; row < arrOfArr.length; row++) {
+    
+        for (var column = 0; column < arrOfArr[row].length; column++) {
+            console.log(arrOfArr[row][column]);
+        }
+    };
+    //prints each element
+    ```
+- **Objects**
+    ```
+    var objectName = { 
+    property1: "value",
+    property2: false,
+    methodName: function() { 
+        if (objectName.property2 === true) {
+        return "string";
+        } else {
+        objectName.property2 = true;
+        return "other string";
+        }
+    }
+    };
+    ```
+    to return the value from an object one can use this 2 ways which are equivalent:
+    `objectName["property"] ` or `objectName.property`
+    to return the method use `objectName.methodName()`
+    Don't use numbers as first item in propery name of an object. 
+    Don't use spaces and hyphens (-) in prop.names. Use cammelCase.
+    Better not to use " " in prop.names.
+
+
 Surprise for me: 
-I thought that things like Short-circuiting is much more complicated for understanding.
+- I thought that things like scope is much more complicated for understanding.
+- Thought that functions would be easy to understand.
 
 
 

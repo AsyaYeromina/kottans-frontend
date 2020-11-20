@@ -381,6 +381,11 @@ Remark for me:
   -  `var` old one; used to declare a variable in **Global** or **Local** scope;
 
 **New for me :**
+
+<details>
+<summary>LOOOOOONG workbook for me about loops, functions, arrays and objects </summary>
+<p>
+
 - Now I've understood the difference between strongly typed languages and loosely typed. In JS :
   - `0 == false` and `' ' == false` and `"1" == true` return true (because of the **Type Conversion**).
   - If we use `===` (strict equality) the Type Conversion will not work (type will be taken into account and `"1" === 1` will return false).
@@ -597,18 +602,30 @@ var avg = findAverage(5, 9); // 5 and 9 are arguments
     Don't use spaces and hyphens (-) in prop.names. Use cammelCase.
     Better not to use " " in prop.names.
 
+</p>
+</details>
+
 
 Surprise for me: 
 - I thought that things like scope is much more complicated for understanding.
 - Thought that functions would be easy to understand.
 
 
+<details><summary>Screenshot</summary>
+<p>
+
+![Screenshot-image-link](task_js_basics/0.6.1-intro_to_js.png)
+
+</p>
+</details>
 
 
 
+
+#### 0.6.2. Exercises on freecodecamp.org
+... 
 
 <!-- 
-#### 0.6.2. Exercises on freecodecamp.org
 - [Basic JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/) - Basic JavaScript language features. ~100 tiny exercises, 2-3 hrs to complete.
 - [ES6 Challenges](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/es6/) - JS ES6 features. Complete initial 19 exercises (till **Write Concise Declarative Functions with ES6**), 3-4 hrs to complete.
 - [Basic Data Structures](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-data-structures/) - Manipulate arrays and objects. Complete all exercises (20). 3-4 hrs to complete.

@@ -332,7 +332,7 @@ Also I've found that making tables responsive is a little bit tricky. But I'll u
 
 #### 0.4.2. [Game: Flexbox froggy](http://flexboxfroggy.com/)
 
-I finished the Frogger game and Grid garden game before the course started.
+I've finished the Froggy game and Grid garden game before the course started.
 
 <details><summary>Screenshot</summary>
 <p>
@@ -367,6 +367,15 @@ Remark for me:
 ### 0.6. [JavaScript Basics](https://github.com/kottans/frontend/blob/master/tasks/js-basics.md)
 
 #### 0.6.1. [Intro to JS](https://classroom.udacity.com/courses/ud803)
+**New for me :**
+This course contains a lot of new info for me, so I decided to make a long workbook. 
+
+Here is the LOOOOOONG workbook for me about:
+
+<details>
+<summary>Statements, strings, scope and types</summary>
+<p>
+
 
 **Some small things to remember:**
 - about strings: 
@@ -376,15 +385,10 @@ Remark for me:
   - `\\` backslash;
 - `null` means nothing; `undefined` is when the value doesn't exist;
 - Difference between variables:
-  -  `let` used to declare a variable in any scope - **Global**, **Local**, or **Block**
-  -  `const` the same as `let` but the value can't be changed
-  -  `var` old one; used to declare a variable in **Global** or **Local** scope;
+  -  `const` the same as `let` but the value can't be reassigned (read-only). Should be written using UPPERCASE_WITH_UNDERSCORE;
+  -  `let` used to declare a variable in any scope - **Global**, **Local**, or **Block**. When using `let`, a variable with the same name can only be declared once. When using `let` inside block it is NOT declared in the global scope.
+  -  `var` old one; can rewrite variables with the same name; used to declare a variable in **Global** or **Local** scope; When using `var` inside block it IS declared in the global scope.
 
-**New for me :**
-
-<details>
-<summary>LOOOOOONG workbook for me about loops, functions, arrays and objects </summary>
-<p>
 
 - Now I've understood the difference between strongly typed languages and loosely typed. In JS :
   - `0 == false` and `' ' == false` and `"1" == true` return true (because of the **Type Conversion**).
@@ -400,6 +404,7 @@ Remark for me:
   - the empty string `""`
   - the odd value `NaN`
 - **Ternary operator** (conditional ? (if condition is true) : (if condition is false))
+- **Multiple Conditional (Ternary) Operator** (conditional A ? (if condition A is true) : conditional B ? (if condition B is true) : (if condition is false))
 - **Switch statements** instead of if...else statements:
 ```
 var varName = "b";
@@ -408,12 +413,22 @@ switch (varName) {
     // if varName = "a"
         console.log("You selected a");
     break;
-    case "b::
+    case "b":
     // if varName = "b"
         console.log("You selected b");
     break;
+
+    // default:   (will return if any of cases match the right variant;)
+        // default statement 
 }
 ```
+
+</p>
+</details>
+
+<details>
+<summary>Loops</summary>
+<p>
 
 **LOOPS**
 
@@ -425,12 +440,28 @@ while (start < 10) { // when to stop
   start = start + 2; // how to get to the next item
 }
 ```
+- **Do... While loops**
+```
+    var ourArray = []; 
+    var i = 5;
+    do {
+        ourArray.push(i);
+        i++;
+    } while (i < 5); // the loop runs "do" before checking the condition 
+```
 - **For loops**
 ```
 for (var i = 0; i < 6; i++) {
   console.log("Printing out i = " + i);
 }
 ```
+
+</p>
+</details>
+
+<details>
+<summary>Functions</summary>
+<p>
 
 **FUNCTIONS**
 
@@ -485,24 +516,31 @@ var avg = findAverage(5, 9); // 5 and 9 are arguments
 - **Сallback** is a function which is passed into another function.
 - **Shadowing** in scope - is when the variable in function/local scope is rewriting the variable in global scope. To avoid this, we should re-declare it inside  the function.
 
+</p>
+</details>
+
+<details>
+<summary>Arrays</summary>
+<p>
+
 **ARRAYS**
 
 - **Arrays' properties and methods**:
-    -  *length* property returns the number of elements
+    -  *length* property returns the quantity of elements
         ```
         var arrName = ["a", "b", "c"];
         console.log(arrName.length);
 
         > 3
         ```
-    -  *push()* method adds an element to the end of the array and returns the number of elements 
+    -  *push()* method adds an element to the end of the array and returns the quantity of elements 
         ```
         var arrName = ["a", "b", "c"];
         arrName.push("d");
 
         > 4 \\ arrName = ["a", "b", "c", "d"]
         ```
-    -  *pop()* method removes the last element from the array and returns is
+    -  *pop()* method removes the last element from the array; returns removed element;
         ```
         var arrName = ["a", "b", "c"];
         arrName.pop();
@@ -520,10 +558,24 @@ var avg = findAverage(5, 9); // 5 and 9 are arguments
 
         > "c" // returns deleted item 
         ```
+    - *slice()* copies a given number of elements to a new array (first param = start index(included), second param = last index(excluded))
+        ```
+        let arr = ['a1', 'a2', 'a3', 'a4', 'a5'];
+        let newArr = arr.slice(1, 3);
+            // newArr equals ['a2', 'a3'];
+            // arr still equals ['a1', 'a2', 'a3', 'a4', 'a5']
+        ```
     - *reverse()* reverses elements in array;
     - *sort()* sorts;
-    - *shift()* removes;
-    - *join()* converts strings into 1 string;
+    - *shift()* removes first element;
+    - *unshift()* adds element to the beggining of the array;
+    - *join()* converts strings into 1 string; converts an array to a string;
+    - *spread operator ...* copies 
+    ```
+        let thisArray = [true, true, undefined, false, null];
+        let thatArray = [...thisArray];
+    ```
+    - *Object.keys()* generates an array with all the keys of the object;
     - 
 - **Array loops** 
     ```
@@ -553,7 +605,13 @@ var avg = findAverage(5, 9); // 5 and 9 are arguments
         // the arrName stays the same ["a", "b", "c"]
         // but newArrName is ["a string", "b string", "c string"]
     ```
-- **Array in array**. You can loop through the arrays:
+- **Array in array**. You can access to the array of the array with index:
+    ```
+    var array[["a", "b", "c"], ["a1", "b1", "c1"], [["a21", "a22"], "b2", "b3"]]
+    array[2][0][1]; // will return "a22"
+    ```
+
+    You can loop through the arrays:
     ```
     var arrOfArr = [
         ["a", "b", "c"], 
@@ -580,6 +638,14 @@ var avg = findAverage(5, 9); // 5 and 9 are arguments
     };
     //prints each element
     ```
+
+</p>
+</details>
+
+<details>
+<summary>Objects</summary>
+<p>
+
 **OBJECTS**
 
     ```
@@ -597,12 +663,16 @@ var avg = findAverage(5, 9); // 5 and 9 are arguments
     };
     ```
 
-to return the value from an object one can use this 2 ways which are equivalent:
-`objectName["property"] ` or `objectName.property`
-to return the method use `objectName.methodName()`
+To return the value from an object one can use this 2 ways which are equivalent:
+`objectName["property"] ` or `objectName.property` (dot notation or brackets notation)
+To return the method use `objectName.methodName()`.
 Don't use numbers as first item in propery name of an object. 
 Don't use spaces and hyphens (-) in prop.names. Use cammelCase.
 Better not to use " " in prop.names.
+
+**Nested objects:** 
+To acces the propery value of an object nested in an object use dot notation or brackets notation (for example `arrayName.)
+Use `hasOwnProperty(propname)` method to check if the property exists (returns boolean).
 
 </p>
 </details>
@@ -611,6 +681,7 @@ Better not to use " " in prop.names.
 Surprise for me: 
 - I thought that things like scope is much more complicated for understanding.
 - Thought that functions would be easy to understand.
+- JSON is just JS object notation 
 
 
 <details><summary>Screenshot</summary>
@@ -625,11 +696,72 @@ Surprise for me:
 
 
 #### 0.6.2. Exercises on freecodecamp.org
-... 
+
+[Basic JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/)
+
+- Math.Random() function
+- parseInt("11111") - converts string to number - 11111.
+- parseInt("11", 2) - 2 is radix = number from 2 to 36 which specifies the base of the number in the string. For example 2 means binary numeral system. So this will return number 3.
+
+
+[ES6 Challenges](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/es6/) (19 exercises)
+
+- `"use strict"` enables Strict Mode, which catches common coding mistakes and "unsafe" actions;
+- `Object.freeze()` function prevents objects and arrays from data mutation (reassigning, deleting, adding new data will be ignored);
+- **Arrow function** syntax:
+    ```
+    const myFunc = () => {
+    const myVar = "value";
+    return myVar;
+    }
+    ```
+    When there is no function body, it's ok o use one-line statements:
+    ```
+    const myFunc = () => "value"; //returns value by default.
+    ```
+- **Default parameters** for functions 
+    ```
+    const greeting = (name = "Anonymous") => "Hello " + name;
+    ```
+- The **rest parameter** allows you create functions that take a variable number of arguments
+    ```
+    function howMany(...args) { // can receive several arguments;
+        args.length;
+    }
+    ```
+- **Destructuring assignment** for assigning values taken from an object.
+    ```
+    const user = { name: 'John Doe', age: 34 };
+    const { name, age } = user;
+    // name = 'John Doe', age = 34
+
+    // 
+
+    // or use new variable names :
+    // const { name: userName, age: userAge } = user;
+    // userName = 'John Doe', userAge = 34
+    ```
+- **Destructuring & sending the object into the function's parameter** 
+    ```
+    const profileUpdate = ({ propertyA, propertyB, propertyC, propertyD }) => {
+        /* do something with these fields */
+    }
+    ```
+- **Template literals**
+    ```
+    const person = {
+    name: "Zodiac Hasbro",
+    age: 56
+    };
+
+    // Template literal with multi-line and string interpolation
+    const greeting = `Hello, my name is ${person.name}!
+    I am ${person.age} years old.`;
+    // use `` instead of '' or "" !;
+    ```
+
 
 <!-- 
-- [Basic JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/) - Basic JavaScript language features. ~100 tiny exercises, 2-3 hrs to complete.
-- [ES6 Challenges](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/es6/) - JS ES6 features. Complete initial 19 exercises (till **Write Concise Declarative Functions with ES6**), 3-4 hrs to complete.
 - [Basic Data Structures](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-data-structures/) - Manipulate arrays and objects. Complete all exercises (20). 3-4 hrs to complete.
 - [Basic Algorithm Scripting](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-algorithm-scripting/) Basic algorithms. Solve all problems (<20). 4-5 hrs to complete.
 - [Functional Programming](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/functional-programming/) Complete all exercises (<25). 2-3 hrs to complete.

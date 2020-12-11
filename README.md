@@ -579,7 +579,7 @@ var avg = findAverage(5, 9); // 5 and 9 are arguments
 
         ```
     - *shift()* removes first element;
-    - *unshift()* adds element to the beggining of the array;
+    - *unshift()* adds element to the beginning of the array;
     - *join()* converts strings into 1 string; converts an array to a string;
     - *spread operator ...* copies
         ```
@@ -634,7 +634,7 @@ var avg = findAverage(5, 9); // 5 and 9 are arguments
 
     alert( result ); // 15
     ```
-  - **reduceRight()** method works the same but starts from the end of the array and goes to the beggining.
+  - **reduceRight()** method works the same but starts from the end of the array and goes to the beginning.
 
 - **Array in array**. You can access to the array of the array with index:
     ```
@@ -697,12 +697,12 @@ var avg = findAverage(5, 9); // 5 and 9 are arguments
 To return the value from an object one can use this 2 ways which are equivalent:
 `objectName["property"] ` or `objectName.property` (dot notation or brackets notation)
 To return the method use `objectName.methodName()`.
-Don't use numbers as first item in propery name of an object.
+Don't use numbers as the first item in property name of an object.
 Don't use spaces and hyphens (-) in prop.names. Use cammelCase.
 Better not to use " " in prop.names.
 
 **Nested objects:**
-To acces the propery value of an object nested in an object use dot notation or brackets notation (for example `arrayName.)
+To access the property value of an object nested in an object use dot notation or brackets notation (for example `arrayName.)
 Use `hasOwnProperty(propname)` method to check if the property exists (returns boolean).
 
 </p>
@@ -742,7 +742,7 @@ New for me from this courses:
 - `parseInt()`  - `parseInt("11111")` - converts string to number - 11111; `parseInt("11", 2)` - 2 is radix = number from 2 to 36 which specifies the base of the number in the string. For example 2 means binary numeral system. So this will return number 3.
 - `"use strict"` enables Strict Mode, which catches common coding mistakes and "unsafe" actions;
 - `Object.freeze()` function prevents objects and arrays from data mutation (reassigning, deleting, adding new data will be ignored);
-- **Most dificult methods for me were map(), filter(), reduce()**
+- **The most difficult methods for me were map(), filter(), reduce()**
 - **Arrow function** syntax:
     ```
     const myFunc = () => {
@@ -758,7 +758,7 @@ New for me from this courses:
     ```
     const greeting = (name = "Anonymous") => "Hello " + name;
     ```
-- The **rest parameter** allows you create functions that take a variable number of arguments
+- The **rest parameter** allows you to create functions that take a variable number of arguments
     ```
     function howMany(...args) { // can receive several arguments;
         args.length;

@@ -7,7 +7,7 @@
 **General**
 - [x] **0.** [Git basics](https://github.com/kottans/frontend/blob/master/tasks/git-intro.md)
     - [Course: Version Control with Git (Udasity)](https://www.udacity.com/course/version-control-with-git--ud123)
-    - [Course: Learn Git branching](https://learngitbranching.js.org/) 
+    - [Course: Learn Git branching](https://learngitbranching.js.org/)
 - [x] **1.** [Linux CLI and Networking](https://github.com/kottans/frontend/blob/master/tasks/linux-cli-http.md)
     - [Course: Linux Survival](https://linuxsurvival.com/linux-tutorial-introduction/)
     - [Article: HTTP: The Protocol Every Web Developer Must Know - Part 1](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-1--net-31177)
@@ -55,7 +55,7 @@ The course also reminded me of the commands `git log -p (--patch)` and `git log 
 - Thing that surprised me is that I don't know how I lived without `git log --oneline --decorate --graph --all` command before :flushed:
 - I'll definitely use this commands every day!
 
-I certainly would recommend the course for all newbies. It's easy for understanding 
+I certainly would recommend the course for all newbies. It's easy for understanding
 
 <details><summary>Screenshot</summary>
 <p>
@@ -66,11 +66,11 @@ I certainly would recommend the course for all newbies. It's easy for understand
 </details>
 
 #### 0.0.2. [Learn Git branching interactive course](https://learngitbranching.js.org/)
-- I practiced on this course before, but passed only half of the levels. A few months ago it seemed to me much more complex. 
+- I practiced on this course before, but passed only half of the levels. A few months ago it seemed to me much more complex.
 This time I've finished all tasks. But it was still hard for me to pass the last level. I definitely should try to pass it one more time after having some practice.
 New for me: difference between rebasing and merging (Rebasing is ok to use when you do not care about the commit history, but the tree readability is important for you. But it's better to use merging if the commit history is very important.
 - thing that surprised me is that cherry-picking is not so complex as it seemed to me before
-- thing I intend to use in the future: cherry-picking :) 
+- thing I intend to use in the future: cherry-picking :)
 
 <details><summary>Screenshot1</summary>
 <p>
@@ -89,8 +89,8 @@ New for me: difference between rebasing and merging (Rebasing is ok to use when 
 </details>
 
 ##### Additional:
-- added some new git cheatsheets to bookmarks 
-- finished markdown tutorial on Github 
+- added some new git cheatsheets to bookmarks
+- finished markdown tutorial on Github
 - finished short course about Shell on udacity while learning Version Control with Git
 
 ---
@@ -99,13 +99,13 @@ New for me: difference between rebasing and merging (Rebasing is ok to use when 
 
 #### 0.1.1 [Linux Survival Course](https://linuxsurvival.com/linux-tutorial-introduction/)
 
-- While I was passing [Course: Version Control with Git (Udasity)](https://www.udacity.com/course/version-control-with-git--ud123) I also finished the [Shell Workshop](https://www.udacity.com/course/shell-workshop--ud206) on Udacity, so some commands were not new for me on this stage. 
-New info for me: security modes (`r` for reading, `w` for writing, `x` for executing) and `chmod` command for changing modes. 
+- While I was passing [Course: Version Control with Git (Udasity)](https://www.udacity.com/course/version-control-with-git--ud123) I also finished the [Shell Workshop](https://www.udacity.com/course/shell-workshop--ud206) on Udacity, so some commands were not new for me on this stage.
+New info for me: security modes (`r` for reading, `w` for writing, `x` for executing) and `chmod` command for changing modes.
 Some more new commands: `finger` - for showing user info; `cat` - for concatenating (adding).
 Command `ps aux` for listing processes (`ps aux |grep <someword>` for listing processes with this word) may be also useful.
 - Surprised me: managing printer queue from the command line.
-- I'm sure I'll use such commands as `ls -l`. And some tips as using * and ? for simplified search. 
-Maybe I'll use `df` command to watch free disk space. 
+- I'm sure I'll use such commands as `ls -l`. And some tips as using * and ? for simplified search.
+Maybe I'll use `df` command to watch free disk space.
 Commands like `rmdir` for deleting empty dir; `rm -r <dirname>` for deleting dir with such name.
 Also, I'm sure I will not manage print queue from the command line :grinning:
 
@@ -146,11 +146,11 @@ Also, I'm sure I will not manage print queue from the command line :grinning:
 and
 #### 0.1.3. [HTTP: The Protocol Every Web Developer Must Know - Part 2](https://code.tutsplus.com/tutorials/http-the-protocol-every-web-developer-must-know-part-2--net-31155)
 
-- New for me: 
+- New for me:
 Status codes (1xx: Informational Messages, 2xx: Successful, 3xx: Redirection, 4xx: Client Error, 5xx: Server Error).
-The request verbs (methods) **GET** for getting an existing resource, **POST** - with data for new resource, **PUT** updating resource, **DELETE** . 
+The request verbs (methods) **GET** for getting an existing resource, **POST** - with data for new resource, **PUT** updating resource, **DELETE** .
 Finaly I understood what means S in https :)
-It was interesting to read about persistent and parallel connections and caching (Document Expiration part was the most interesting for me). 
+It was interesting to read about persistent and parallel connections and caching (Document Expiration part was the most interesting for me).
 - It was a little surprise for me how much other info is transferred between the client and the server, in addition to the information that the user requests.
 - The article is very rich for new information. So it worth re-reading it in the future for deeper understanding.
 
@@ -160,14 +160,14 @@ It was interesting to read about persistent and parallel connections and caching
 
 #### 0.2.1. [Course: GitHub & Collaboration](https://classroom.udacity.com/courses/ud456)
 
-- The course was more like a repetition of previously used knowledge about `git remore` commands, `push`, `pull`, `fetch`. 
+- The course was more like a repetition of previously used knowledge about `git remore` commands, `push`, `pull`, `fetch`.
 - Now the difference between `pull` and `fetch` seems more clear to me. (`fetch` + `merge` = `pull`)
-I learned a lot of new commands for viewing repo history which are useful for collaboration. 
-- I think I'll use such commands: 
+I learned a lot of new commands for viewing repo history which are useful for collaboration.
+- I think I'll use such commands:
   - `git shortlog` for showing all contributors of a repo.
   - `git log --grep=<someword>` search by keyword in the commit messages.
-  - `git log --author=<Authorname>` search by author 
-  - `git show SHA` - search commit by SHA 
+  - `git log --author=<Authorname>` search by author
+  - `git show SHA` - search commit by SHA
   - `git remote rename <newRepoName> <oldRepoName>` to rename remote repositories (e.g. origin or upstream)
   - `git rebase -i HEAD~3` rebase last commits into 1 (interactive)
   - `git push -f` - Force Pushing
@@ -209,7 +209,7 @@ I had passed it while doing task 0.0.Git Basics.
 
 #### 0.3.1. [Course: Intro to HTML & CSS (Udasity)](https://www.udacity.com/course/intro-to-html-and-css--ud304)
 
-It's a useful course for making first steps in HTML and CSS. 
+It's a useful course for making first steps in HTML and CSS.
 There was no new info for me.
 
 <details><summary>Screenshot</summary>
@@ -221,11 +221,11 @@ There was no new info for me.
 </details>
 
 #### 0.3.2. [Course: Learn HTML(Codeacademy)](https://www.codecademy.com/learn/learn-html)
-It's a useful course for making first steps in HTML. 
-New for me: 
+It's a useful course for making first steps in HTML.
+New for me:
 - tag for inserting video
 
-``` 
+```
     <video src="myVideo.mp4" width="320" height="240" controls>
     Video not supported
     </video>
@@ -237,8 +237,8 @@ New for me:
     <source src="AudioFile.mp3" type="audio/mp3">
     </audio>
 ```
-- Datalist element for making input with the ability to select a proposed variant (like a select input) and ability to enter user's own variant. 
-``` 
+- Datalist element for making input with the ability to select a proposed variant (like a select input) and ability to enter user's own variant.
+```
     <label for="idname">Choose a flavor:</label>
     <input list="datalistid" id="idname" name="idname" />
     <datalist id="datalistid">
@@ -246,7 +246,7 @@ New for me:
         <option value="Coconut">
     </datalist>
 ```
-- tag `<embed>` for embedding media content from an external source 
+- tag `<embed>` for embedding media content from an external source
 
 ```
     <embed src="download.gif"/>
@@ -265,7 +265,7 @@ New for me:
 
 #### 0.3.3. [Course: Learn CSS(Codeacademy)](https://www.codecademy.com/learn/learn-css)
 
-Flex and grid properties that were new for me: 
+Flex and grid properties that were new for me:
 - Property `flex:` is short for grow, shrink, basis properties.
 - Property `flex-flow:` is for flex-wrap and flex-direction properties in one line.
 - `grid-template:` short for row and column sizes. For example `grid-template: 200px 300px / 20% 10% 70%;`.
@@ -274,19 +274,19 @@ Flex and grid properties that were new for me:
 - Using word `span`. For example `grid-column: 4 / span 2;` means start at column 4 and take 2 columns of space.
 - `grid-area:` is short for grid-row-start, grid-column-start, grid-row-end, grid-column-end. For example `grid-area: 2 / 3 / 4 / span 5;`
 - `grid-template-areas` for giving a name for areas and maintaining their position. It's like an alternative way of specifying the position.
-- `grid-auto-rows and -columns` for maintaining sizes of rows and columns which are not specified before. The first line specifies the first 2 rows and 2 columns, the second line makes all other rows 50px width 
+- `grid-auto-rows and -columns` for maintaining sizes of rows and columns which are not specified before. The first line specifies the first 2 rows and 2 columns, the second line makes all other rows 50px width
 ```
-    grid: repeat(2, 100px) / repeat(2, 150px); 
+    grid: repeat(2, 100px) / repeat(2, 150px);
     grid-auto-rows: 50px;
 ```
 - `grid-auto-flow` property specifies the order in which new elements are rendered: rows(default), columns, dense (to fill holes earlier in the grid layout if smaller elements are added)
-  
-New transition properties for me: 
+
+New transition properties for me:
 - `transition-property:` (color, size ...)
 - `transition-duration:` (time: s, ms)
 - `transition-delay:` (time: s, ms)
 - `transition-timing-function:` (ease-in, ease-out, ease-in-out, linear)
-- short rule: `transition: color 1.5s linear 0.5s;` 
+- short rule: `transition: color 1.5s linear 0.5s;`
 
 Using new knowledge:
 - It would be great to remember some of the properties that were made for making code shorter. This will help me to understand code written by others. But maybe using such shortening can make a code more complex for understanding it from the first sight. So i'm not sure I'll use all of them.
@@ -317,8 +317,8 @@ New for me:
 
 Also I've found that making tables responsive is a little bit tricky. But I'll use the ideas given in the course:
 - to show only short content (jy small screens) if it is possible
-- to display table as block 
-- to make it scrollable (with width: 100% and overflow-x: auto) 
+- to display table as block
+- to make it scrollable (with width: 100% and overflow-x: auto)
 
 <details><summary>Screenshot</summary>
 <p>
@@ -355,12 +355,12 @@ I've finished the Froggy game and Grid garden game before the course started.
 
 ### 0.5. [HTML & CSS **Practice**](https://github.com/kottans/frontend/blob/master/tasks/html-css-popup.md)
 
-Watch the [Demo](https://asyayeromina.github.io/kottans-task_html-css-popup/) 
+Watch the [Demo](https://asyayeromina.github.io/kottans-task_html-css-popup/)
 
 And check the [Code base](https://github.com/AsyaYeromina/kottans-task_html-css-popup)
 
 Remark for me:
-- Don't forget to check code in validator before requesring a review. 
+- Don't forget to check code in validator before requesring a review.
 
 ---
 
@@ -368,7 +368,7 @@ Remark for me:
 
 #### 0.6.1. [Intro to JS](https://classroom.udacity.com/courses/ud803)
 **New for me :**
-This course contains a lot of new info for me, so I decided to make a long workbook. 
+This course contains a lot of new info for me, so I decided to make a long workbook.
 
 Here is the LOOOOOONG workbook for me about:
 
@@ -378,9 +378,9 @@ Here is the LOOOOOONG workbook for me about:
 
 
 **Some small things to remember:**
-- about strings: 
-  - special characters for strings: `\"` to prevent reading " as the end of the string; 
-  - `\n` start a newline in the string; 
+- about strings:
+  - special characters for strings: `\"` to prevent reading " as the end of the string;
+  - `\n` start a newline in the string;
   - `\t` tab;
   - `\\` backslash;
 - `null` means nothing; `undefined` is when the value doesn't exist;
@@ -394,7 +394,7 @@ Here is the LOOOOOONG workbook for me about:
   - `0 == false` and `' ' == false` and `"1" == true` return true (because of the **Type Conversion**).
   - If we use `===` (strict equality) the Type Conversion will not work (type will be taken into account and `"1" === 1` will return false).
   - **Implicit type coercion** - is when a number is converting to a string when is concatenating with a string.
-- Logical operators `&&` - AND and `||` - OR and `!` - NOT 
+- Logical operators `&&` - AND and `||` - OR and `!` - NOT
 - **Short-circuiting** (замыкание) when one boolean value is enough to have the result of an expression (for an expressions with `&&` the result will be always false if the 1st value is false; and expression with `||` will always return true if the 1st statement is true);
 - 6 falsy values in JS:
   - the Boolean value `false`
@@ -409,7 +409,7 @@ Here is the LOOOOOONG workbook for me about:
 ```
 var varName = "b";
 switch (varName) {
-    case "a": 
+    case "a":
     // if varName = "a"
         console.log("You selected a");
     break;
@@ -419,7 +419,7 @@ switch (varName) {
     break;
 
     // default:   (will return if any of cases match the right variant;)
-        // default statement 
+        // default statement
 }
 ```
 
@@ -432,7 +432,7 @@ switch (varName) {
 
 **LOOPS**
 
-- **While loops** : 
+- **While loops** :
 ```
 var start = 0; // when to start
 while (start < 10) { // when to stop
@@ -442,12 +442,12 @@ while (start < 10) { // when to stop
 ```
 - **Do... While loops**
 ```
-    var ourArray = []; 
+    var ourArray = [];
     var i = 5;
     do {
         ourArray.push(i);
         i++;
-    } while (i < 5); // the loop runs "do" before checking the condition 
+    } while (i < 5); // the loop runs "do" before checking the condition
 ```
 - **For loops**
 ```
@@ -470,10 +470,10 @@ function findAverage(x, y) { // x and y are parameters (variables)
   var answer = (x + y) / 2; // Local variable "answer"
   return answer;
 }
-var avg = findAverage(5, 9); // 5 and 9 are arguments 
+var avg = findAverage(5, 9); // 5 and 9 are arguments
 ```
 
-- **function declaration** are hoisted (function is loaded before the script runs); 
+- **function declaration** are hoisted (function is loaded before the script runs);
     ```
     function nameOfFunction(argument) {
       //some code
@@ -506,7 +506,7 @@ var avg = findAverage(5, 9); // 5 and 9 are arguments
         function movies(messageFunction, name) {
             messageFunction(name);
         }
-        
+
         <!-- call the movies function, pass in the function and name of movie -->
 
         movies(function displayFavorite(movieName) {
@@ -533,7 +533,7 @@ var avg = findAverage(5, 9); // 5 and 9 are arguments
 
         > 3
         ```
-    -  *push()* method adds an element to the end of the array and returns the quantity of elements 
+    -  *push()* method adds an element to the end of the array and returns the quantity of elements
         ```
         var arrName = ["a", "b", "c"];
         arrName.push("d");
@@ -550,15 +550,16 @@ var avg = findAverage(5, 9); // 5 and 9 are arguments
     -  *splice()* removes and adds elements from anywhere; lets you specify the index of an element; returns the element that have been deleted;
         ```
         var arrName = ["a", "b", "c"];
-        arrName.splice(2, 1, "d"); 
-        
-            // position of the item that will be deleted - 2 (third element "c"); 
-            // quantity of elements to be deleted - 1; 
-            // element(s) to be added on this place ("d" will be added);
+        arrName.splice(2, 1, "d");
 
-        > "c" // returns deleted item 
+            // position of the item that will be deleted - 2 (third element "c");
+            // quantity of elements to be deleted - 1;
+            // element(s) to be added on this place ("d" will be added);
+            // If 2nd argument is not provided, items will be removed through the end.
+
+        > "c" // returns deleted item
         ```
-    - *slice()* copies a given number of elements to a new array (first param = start index(included), second param = last index(excluded))
+    - *slice()* copies a given number of elements to a new array (first param = start index(included), second param = last index(excluded), without params - copy all elements to new array)
         ```
         let arr = ['a1', 'a2', 'a3', 'a4', 'a5'];
         let newArr = arr.slice(1, 3);
@@ -566,18 +567,28 @@ var avg = findAverage(5, 9); // 5 and 9 are arguments
             // arr still equals ['a1', 'a2', 'a3', 'a4', 'a5']
         ```
     - *reverse()* reverses elements in array;
-    - *sort()* sorts;
+    - *sort()* sorts according to callback function
+        ```
+        function ascendingOrder(arr) {
+            return arr.sort(function(a, b) {
+                return a - b;
+            });
+        }
+        ascendingOrder([1, 5, 2, 3, 4]);
+        // Returns [1, 2, 3, 4, 5]
+
+        ```
     - *shift()* removes first element;
     - *unshift()* adds element to the beggining of the array;
     - *join()* converts strings into 1 string; converts an array to a string;
-    - *spread operator ...* copies 
-    ```
+    - *spread operator ...* copies
+        ```
         let thisArray = [true, true, undefined, false, null];
         let thatArray = [...thisArray];
-    ```
+        ```
     - *Object.keys()* generates an array with all the keys of the object;
-    - 
-- **Array loops** 
+
+  - **Array loops**
     ```
     var arrName = ["a", "b", "c"];
 
@@ -588,14 +599,14 @@ var avg = findAverage(5, 9); // 5 and 9 are arguments
     }
         // Now the array is ["a string", "b string", "c string"]
     ```
-- **ForEach loop** method 
+  - **ForEach loop** method
     ```
     var words = ["cat", "in", "hat"];
     words.forEach(function(element, index, array) {
         console.log("Word " + index + " in " + array.toString() + " is " + element);
     });
     ```
-- **Map** method (returns new array); using index is not necessary
+  - **Map()** method. Returns new array.
     ```
     var arrName = ["a", "b", "c"];
     var newArrName = arrName.map(function(element) {
@@ -605,6 +616,26 @@ var avg = findAverage(5, 9); // 5 and 9 are arguments
         // the arrName stays the same ["a", "b", "c"]
         // but newArrName is ["a string", "b string", "c string"]
     ```
+
+  - **Filter()** method. Returns new array. Can get properties like `currentElement, index, array`
+    ```
+    ```
+  - **Reduce()** method. Returns new array. Can get properties like `resultOfCallback, current, index, array`. May also have `initialValue` as a property.
+    ```
+    var arr = [1, 2, 3, 4, 5]
+
+        // runs function for each element
+        // returns result and puts to the first prop.
+    var result = arr.reduce(function(result, current) {
+        return result + current;
+        // a callback function
+    }, 0);
+    // 0 is an initialValue
+
+    alert( result ); // 15
+    ```
+  - **reduceRight()** method works the same but starts from the end of the array and goes to the beggining.
+
 - **Array in array**. You can access to the array of the array with index:
     ```
     var array[["a", "b", "c"], ["a1", "b1", "c1"], [["a21", "a22"], "b2", "b3"]]
@@ -614,8 +645,8 @@ var avg = findAverage(5, 9); // 5 and 9 are arguments
     You can loop through the arrays:
     ```
     var arrOfArr = [
-        ["a", "b", "c"], 
-        ["a1", "b1", "c1"], 
+        ["a", "b", "c"],
+        ["a1", "b1", "c1"],
         ["a2", "b2", "b3"]];
 
     for (var row = 0; row < arrOfArr.length; row++) {
@@ -626,12 +657,12 @@ var avg = findAverage(5, 9); // 5 and 9 are arguments
     Or you can loop through a loop of each array in array
     ```
     var arrOfArr = [
-        ["a", "b", "c"], 
-        ["a1", "b1", "c1"], 
+        ["a", "b", "c"],
+        ["a1", "b1", "c1"],
         ["a2", "b2", "b3"]];
 
     for (var row = 0; row < arrOfArr.length; row++) {
-    
+
         for (var column = 0; column < arrOfArr[row].length; column++) {
             console.log(arrOfArr[row][column]);
         }
@@ -649,10 +680,10 @@ var avg = findAverage(5, 9); // 5 and 9 are arguments
 **OBJECTS**
 
     ```
-    var objectName = { 
+    var objectName = {
     property1: "value",
     property2: false,
-    methodName: function() { 
+    methodName: function() {
         if (objectName.property2 === true) {
         return "string";
         } else {
@@ -666,11 +697,11 @@ var avg = findAverage(5, 9); // 5 and 9 are arguments
 To return the value from an object one can use this 2 ways which are equivalent:
 `objectName["property"] ` or `objectName.property` (dot notation or brackets notation)
 To return the method use `objectName.methodName()`.
-Don't use numbers as first item in propery name of an object. 
+Don't use numbers as first item in propery name of an object.
 Don't use spaces and hyphens (-) in prop.names. Use cammelCase.
 Better not to use " " in prop.names.
 
-**Nested objects:** 
+**Nested objects:**
 To acces the propery value of an object nested in an object use dot notation or brackets notation (for example `arrayName.)
 Use `hasOwnProperty(propname)` method to check if the property exists (returns boolean).
 
@@ -678,10 +709,10 @@ Use `hasOwnProperty(propname)` method to check if the property exists (returns b
 </details>
 
 
-Surprise for me: 
+Surprise for me:
 - I thought that things like scope is much more complicated for understanding.
 - Thought that functions would be easy to understand.
-- JSON is just JS object notation 
+- JSON is just JS object notation
 
 
 <details><summary>Screenshot</summary>
@@ -697,17 +728,21 @@ Surprise for me:
 
 #### 0.6.2. Exercises on freecodecamp.org
 
-[Basic JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/)
+- [Basic JavaScript](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/)
+- [ES6 Challenges](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/es6/) (19 exercises)
+- [Basic Data Structures](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-data-structures/)
+- [Basic Algorithm Scripting](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-algorithm-scripting/)
+- [Functional Programming](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/functional-programming/)
+- [Algorithm Scripting Challenges](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting) (11 exercises)
 
-- Math.Random() function
-- parseInt("11111") - converts string to number - 11111.
-- parseInt("11", 2) - 2 is radix = number from 2 to 36 which specifies the base of the number in the string. For example 2 means binary numeral system. So this will return number 3.
 
+New for me from this courses:
 
-[ES6 Challenges](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/es6/) (19 exercises)
-
+- `Math.Random()`
+- `parseInt()`  - `parseInt("11111")` - converts string to number - 11111; `parseInt("11", 2)` - 2 is radix = number from 2 to 36 which specifies the base of the number in the string. For example 2 means binary numeral system. So this will return number 3.
 - `"use strict"` enables Strict Mode, which catches common coding mistakes and "unsafe" actions;
 - `Object.freeze()` function prevents objects and arrays from data mutation (reassigning, deleting, adding new data will be ignored);
+- **Most dificult methods for me were map(), filter(), reduce()**
 - **Arrow function** syntax:
     ```
     const myFunc = () => {
@@ -715,11 +750,11 @@ Surprise for me:
     return myVar;
     }
     ```
-    When there is no function body, it's ok o use one-line statements:
+    When there is no function body, it's ok to use one-line statements:
     ```
     const myFunc = () => "value"; //returns value by default.
     ```
-- **Default parameters** for functions 
+- **Default parameters** for functions
     ```
     const greeting = (name = "Anonymous") => "Hello " + name;
     ```
@@ -734,14 +769,12 @@ Surprise for me:
     const user = { name: 'John Doe', age: 34 };
     const { name, age } = user;
     // name = 'John Doe', age = 34
-
-    // 
-
+    //
     // or use new variable names :
     // const { name: userName, age: userAge } = user;
     // userName = 'John Doe', userAge = 34
     ```
-- **Destructuring & sending the object into the function's parameter** 
+- **Destructuring & sending the object into the function's parameter**
     ```
     const profileUpdate = ({ propertyA, propertyB, propertyC, propertyD }) => {
         /* do something with these fields */
@@ -761,12 +794,11 @@ Surprise for me:
     ```
 
 
-<!-- 
-- [Basic Data Structures](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-data-structures/) - Manipulate arrays and objects. Complete all exercises (20). 3-4 hrs to complete.
-- [Basic Algorithm Scripting](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-algorithm-scripting/) Basic algorithms. Solve all problems (<20). 4-5 hrs to complete.
-- [Functional Programming](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/functional-programming/) Complete all exercises (<25). 2-3 hrs to complete.
-- [Algorithm Scripting Challenges](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting) Intermediate algorithms. Solve initial 11 problems (till **Convert HTML Entities**), 3-5 hrs to complete
-- :warning: In [**Pig Latin**](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/pig-latin/exercise English letter **Y** is considered a consonant
-- :warning: In [**Convert HTML Entities**](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/intermediate-algorithm-scripting/convert-html-entitiesexercise **DO NOT** copy-paste HTML entities (`'&amp;'`, `'&lt'` etc.) from the testas those will contain invisible non-breaking spaces and the code won't work as expected. Type them instead.
- -->
 
+<details><summary>Screenshot</summary>
+<p>
+
+![Screenshot-image-link](task_js_basics/0.6.2-freecodecamp-js.png)
+
+</p>
+</details>

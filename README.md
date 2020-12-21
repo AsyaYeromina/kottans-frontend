@@ -28,7 +28,9 @@
 - [x] **6.** [JavaScript Basics](https://github.com/kottans/frontend/blob/master/tasks/js-basics.md)
     - [Course: Intro to JS](https://classroom.udacity.com/courses/ud803)
     - FreeCodeCamp exercises
-- [ ] **7.** [Document Object Model](https://github.com/kottans/frontend/blob/master/tasks/js-dom.md) - practice
+- [x] **7.** [Document Object Model](https://github.com/kottans/frontend/blob/master/tasks/js-dom.md) - practice
+    - [Course: JS and the DOM](https://classroom.udacity.com/courses/ud117)
+    - FreeCodeCamp exercises
 
 **Advanced Topics**
 - [ ] **8.** [Building a Tiny JS World (pre-OOP)](https://github.com/kottans/frontend/blob/master/tasks/js-pre-oop.md) - practice
@@ -802,3 +804,55 @@ New for me from this courses:
 
 </p>
 </details>
+
+
+### 0.7. [Document Object Model](https://github.com/kottans/frontend/blob/master/tasks/js-dom.md) - practice
+
+#### 0.7.1 [Course: JS and the DOM](https://classroom.udacity.com/courses/ud117)
+
+**New for me**
+All this stuff with nodes and tokens which are turning into DOM elements was new for me.
+Some new methods: `.getElementById()`, `.getElementsByClassName()`, `.getElementsByTagName()`, `.querySelector()`, `.querySelectorAll()`.
+- Some new properties: `.innerHTML`, `.textContent` (everything is just a text), `.innerHTML` (renders everything as a HTML (tags inside text become HTML tags)), `.innerText`(returns the text as it would be seen visually, after CSS influenced the text).
+- Creating elements methods: `.createElement()`, `.appendChild()` (adds element as the last child of the parent element), `.createTextNode()` (creates text which can be added to an element), `.insertAdjacentHTML(position for pasting, text)`, `.removeChild()`, `.remove()`, `.firstElementChild`, `.parentElement`(element.parentElement.removeChild(element)).
+- Props and methods for styling: `.style.<property>` (for changing 1 property), `.style.cssText` (can change different props at one time, can overwrite anything that's already in the .style attribute), `.setAttribute()`, `.className`, `.classList` (properties: `.add()`, `.remove()`, `.toggle()`, `.contains()`).
+
+**Browser events**
+Browsers have `monitorEvents()` function which is monitoring for clicks, dblclicks, scrolling, resizeing, an a lot of more events.
+`unmonitorEvents()` function turns off the announcing of events for the targeted element
+
+IventTarget methods : `.addEventListener()`, `.removeEventListener()`, `.preventDefault()`
+
+`addEventListener('DOMContentLoaded', function () {})` starts listen events when the DOM is ready. `DOMContentLoaded` Works faster than `.onload`
+
+`createDocumentFragment()` - Creates a virtual DocumentFragment into which DOM nodes can be added
+
+
+<details><summary>Screenshot</summary>
+<p>
+
+![Screenshot-image-link](task_js_basics/../task_dom_js/0.7.1-udacity-dom-js.png)
+
+</p>
+</details>
+
+
+#### 0.7.2 Practice
+
+Tasks with smallest multiple and summ of all primes were the most difficult.
+I should definitely return to them later.
+
+<details><summary>Screenshot</summary>
+<p>
+
+![Screenshot-image-link](task_js_basics/../task_dom_js/0.7.2-freecodecamp-js.png)
+
+</p>
+</details>
+
+
+#### 0.7.3 Practice
+
+Watch the [Demo](https://asyayeromina.github.io/Kottans_DOM_task/)
+
+And check the [Code base](https://github.com/AsyaYeromina/Kottans_DOM_task)

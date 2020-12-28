@@ -808,7 +808,7 @@ New for me from this courses:
 </p>
 </details>
 
----
+=======
 
 ### 0.7. [Document Object Model](https://github.com/kottans/frontend/blob/master/tasks/js-dom.md) - practice
 
@@ -903,3 +903,4 @@ Looking forward to use constructor functions in my next task from Kottans.
 
 </p>
 </details>
+=======

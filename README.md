@@ -28,11 +28,16 @@
 - [x] **6.** [JavaScript Basics](https://github.com/kottans/frontend/blob/master/tasks/js-basics.md)
     - [Course: Intro to JS](https://classroom.udacity.com/courses/ud803)
     - FreeCodeCamp exercises
-- [ ] **7.** [Document Object Model](https://github.com/kottans/frontend/blob/master/tasks/js-dom.md) - practice
+- [x] **7.** [Document Object Model](https://github.com/kottans/frontend/blob/master/tasks/js-dom.md) - practice
+    - [Course: JS and the DOM](https://classroom.udacity.com/courses/ud117)
+    - FreeCodeCamp exercises
 
 **Advanced Topics**
-- [ ] **8.** [Building a Tiny JS World (pre-OOP)](https://github.com/kottans/frontend/blob/master/tasks/js-pre-oop.md) - practice
-- [ ] **9.** [Object oriented JS](https://github.com/kottans/frontend/blob/master/tasks/js-oop.md) - practice
+- [x] **8.** [Building a Tiny JS World (pre-OOP)](https://github.com/kottans/frontend/blob/master/tasks/js-pre-oop.md) - practice
+    - [Practice: Tiny JS World](https://github.com/OleksiyRudenko/a-tiny-JS-world)
+- [x] **9.** [Object oriented JS](https://github.com/kottans/frontend/blob/master/tasks/js-oop.md) - practice
+    - [Course: Object Oriented JS](https://classroom.udacity.com/courses/ud015)
+    - [Practice: Reach 7 kyu on codewars](https://www.codewars.com/)
 - [ ] **10.** [OOP exercise](https://github.com/kottans/frontend/blob/master/tasks/js-post-oop.md) - practice
 - [ ] **11.** [Offline Web Applications](https://github.com/kottans/frontend/blob/master/tasks/app-design-offline.md)
 - [ ] **12.** [Memory pair game](https://github.com/kottans/frontend/blob/master/tasks/memory-pair-game.md) — real project!
@@ -799,6 +804,102 @@ New for me from this courses:
 <p>
 
 ![Screenshot-image-link](task_js_basics/0.6.2-freecodecamp-js.png)
+
+</p>
+</details>
+
+---
+
+### 0.7. [Document Object Model](https://github.com/kottans/frontend/blob/master/tasks/js-dom.md) - practice
+
+#### 0.7.1 [Course: JS and the DOM](https://classroom.udacity.com/courses/ud117)
+
+**New for me**
+All this stuff with nodes and tokens which are turning into DOM elements was new for me.
+Some new methods: `.getElementById()`, `.getElementsByClassName()`, `.getElementsByTagName()`, `.querySelector()`, `.querySelectorAll()`.
+- Some new properties: `.innerHTML`, `.textContent` (everything is just a text), `.innerHTML` (renders everything as a HTML (tags inside text become HTML tags)), `.innerText`(returns the text as it would be seen visually, after CSS influenced the text).
+- Creating elements methods: `.createElement()`, `.appendChild()` (adds element as the last child of the parent element), `.createTextNode()` (creates text which can be added to an element), `.insertAdjacentHTML(position for pasting, text)`, `.removeChild()`, `.remove()`, `.firstElementChild`, `.parentElement`(element.parentElement.removeChild(element)).
+- Props and methods for styling: `.style.<property>` (for changing 1 property), `.style.cssText` (can change different props at one time, can overwrite anything that's already in the .style attribute), `.setAttribute()`, `.className`, `.classList` (properties: `.add()`, `.remove()`, `.toggle()`, `.contains()`).
+
+**Browser events**
+Browsers have `monitorEvents()` function which is monitoring for clicks, dblclicks, scrolling, resizeing, an a lot of more events.
+`unmonitorEvents()` function turns off the announcing of events for the targeted element
+
+IventTarget methods : `.addEventListener()`, `.removeEventListener()`, `.preventDefault()`
+
+`addEventListener('DOMContentLoaded', function () {})` starts listen events when the DOM is ready. `DOMContentLoaded` Works faster than `.onload`
+
+`createDocumentFragment()` - Creates a virtual DocumentFragment into which DOM nodes can be added
+
+
+<details><summary>Screenshot</summary>
+<p>
+
+![Screenshot-image-link](task_js_basics/../task_dom_js/0.7.1-udacity-dom-js.png)
+
+</p>
+</details>
+
+
+#### 0.7.2 Practice
+
+Tasks with smallest multiple and summ of all primes were the most difficult.
+I should definitely return to them later.
+
+<details><summary>Screenshot</summary>
+<p>
+
+![Screenshot-image-link](task_js_basics/../task_dom_js/0.7.2-freecodecamp-js.png)
+
+</p>
+</details>
+
+
+#### 0.7.3 Practice
+
+Watch the [Demo](https://asyayeromina.github.io/Kottans_DOM_task/)
+
+And check the [Code base](https://github.com/AsyaYeromina/Kottans_DOM_task)
+
+---
+
+### 0.8 [Building a Tiny JS World (pre-OOP)](https://github.com/kottans/frontend/blob/master/tasks/js-pre-oop.md) - practice
+
+
+Watch the [Demo](https://asyayeromina.github.io/a-tiny-JS-world/)
+
+And check the [Code base](https://github.com/AsyaYeromina/a-tiny-JS-world)
+
+---
+
+### 0.9 [Object oriented JS](https://github.com/kottans/frontend/blob/master/tasks/js-oop.md) - practice
+
+#### 0.9.1 [Course: Object Oriented JS](https://classroom.udacity.com/courses/ud015)
+
+This course was to complicated. Some simple thingth were described in complicated manner. So I could just grasp the basic idea.
+After that I also finished [this course on Udacity](https://classroom.udacity.com/courses/ud711), and things became more clear to me.
+Although all material was new for me, it was easy to understand such things as `this`, `constructor functions`, `closure` and `prototype chains`.
+
+The surprise for me was that I used closure before, but never thought that it was closure.
+
+Looking forward to use constructor functions in my next task from Kottans.
+
+
+<details><summary>Screenshot</summary>
+<p>
+
+![Screenshot-image-link](task_object_oriented_js/0.9.1-udacity.png)
+
+</p>
+</details>
+
+#### 0.9.2 [Practice: Reach 7 kyu on codewars](https://www.codewars.com/)
+
+
+<details><summary>Screenshot</summary>
+<p>
+
+![Screenshot-image-link](task_object_oriented_js/0.9.2-codewars.png)
 
 </p>
 </details>

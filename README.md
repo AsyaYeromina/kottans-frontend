@@ -33,8 +33,11 @@
     - FreeCodeCamp exercises
 
 **Advanced Topics**
-- [ ] **8.** [Building a Tiny JS World (pre-OOP)](https://github.com/kottans/frontend/blob/master/tasks/js-pre-oop.md) - practice
-- [ ] **9.** [Object oriented JS](https://github.com/kottans/frontend/blob/master/tasks/js-oop.md) - practice
+- [x] **8.** [Building a Tiny JS World (pre-OOP)](https://github.com/kottans/frontend/blob/master/tasks/js-pre-oop.md) - practice
+    - [Practice: Tiny JS World](https://github.com/OleksiyRudenko/a-tiny-JS-world)
+- [x] **9.** [Object oriented JS](https://github.com/kottans/frontend/blob/master/tasks/js-oop.md) - practice
+    - [Course: Object Oriented JS](https://classroom.udacity.com/courses/ud015)
+    - [Practice: Reach 7 kyu on codewars](https://www.codewars.com/)
 - [ ] **10.** [OOP exercise](https://github.com/kottans/frontend/blob/master/tasks/js-post-oop.md) - practice
 - [ ] **11.** [Offline Web Applications](https://github.com/kottans/frontend/blob/master/tasks/app-design-offline.md)
 - [ ] **12.** [Memory pair game](https://github.com/kottans/frontend/blob/master/tasks/memory-pair-game.md) — real project!
@@ -805,6 +808,7 @@ New for me from this courses:
 </p>
 </details>
 
+=======
 
 ### 0.7. [Document Object Model](https://github.com/kottans/frontend/blob/master/tasks/js-dom.md) - practice
 
@@ -856,3 +860,47 @@ I should definitely return to them later.
 Watch the [Demo](https://asyayeromina.github.io/Kottans_DOM_task/)
 
 And check the [Code base](https://github.com/AsyaYeromina/Kottans_DOM_task)
+
+---
+
+### 0.8 [Building a Tiny JS World (pre-OOP)](https://github.com/kottans/frontend/blob/master/tasks/js-pre-oop.md) - practice
+
+
+Watch the [Demo](https://asyayeromina.github.io/a-tiny-JS-world/)
+
+And check the [Code base](https://github.com/AsyaYeromina/a-tiny-JS-world)
+
+---
+
+### 0.9 [Object oriented JS](https://github.com/kottans/frontend/blob/master/tasks/js-oop.md) - practice
+
+#### 0.9.1 [Course: Object Oriented JS](https://classroom.udacity.com/courses/ud015)
+
+This course was to complicated. Some simple thingth were described in complicated manner. So I could just grasp the basic idea.
+After that I also finished [this course on Udacity](https://classroom.udacity.com/courses/ud711), and things became more clear to me.
+Although all material was new for me, it was easy to understand such things as `this`, `constructor functions`, `closure` and `prototype chains`.
+
+The surprise for me was that I used closure before, but never thought that it was closure.
+
+Looking forward to use constructor functions in my next task from Kottans.
+
+
+<details><summary>Screenshot</summary>
+<p>
+
+![Screenshot-image-link](task_object_oriented_js/0.9.1-udacity.png)
+
+</p>
+</details>
+
+#### 0.9.2 [Practice: Reach 7 kyu on codewars](https://www.codewars.com/)
+
+
+<details><summary>Screenshot</summary>
+<p>
+
+![Screenshot-image-link](task_object_oriented_js/0.9.2-codewars.png)
+
+</p>
+</details>
+=======

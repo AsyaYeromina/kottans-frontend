@@ -7,6 +7,7 @@
 **General**
 - [x] **0.** [Git basics](https://github.com/kottans/frontend/blob/master/tasks/git-intro.md)
     - [Course: Version Control with Git (Udasity)](https://www.udacity.com/course/version-control-with-git--ud123)
+    - [Introduction to Git and Github](https://www.coursera.org/learn/introduction-git-github) (2022)
     - [Course: Learn Git branching](https://learngitbranching.js.org/)
 - [x] **1.** [Linux CLI and Networking](https://github.com/kottans/frontend/blob/master/tasks/linux-cli-http.md)
     - [Course: Linux Survival](https://linuxsurvival.com/linux-tutorial-introduction/)

@@ -52,7 +52,7 @@
 ---
 
 ### 0.0. Git Basics
-#### 0.0.1. [Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123)
+#### 0.0.1. [Version Control with Git](https://www.udacity.com/course/version-control-with-git--ud123) (in course from 2019)
 
 - This Udacity course was more like updating knowledge to me.
 But I also learned about **tagging** and some commands that are going with it (git log --decorate, git describe).
@@ -66,6 +66,42 @@ I certainly would recommend the course for all newbies. It's easy for understand
 <p>
 
 ![Screenshot-image-link](task_git_basics/0.0.1-udacity.png)
+
+</p>
+</details>
+
+#### 0.0.1. [Introduction to Git and Github](https://www.coursera.org/learn/introduction-git-github) ([updated course in 2022](https://github.com/kottans/frontend/blob/2022_UA/tasks/git-intro.md))
+
+Nice course. Parts 2 (especially the material about branching and merging) and 3 (solving conflicts) are good when you forget everything and need to repeat the main commands.
+
+<details><summary>Screenshot</summary>
+<p>
+
+![Screenshot-image-link](task_git_basics/0.0.1-coursera_1.png)
+
+</p>
+</details>
+
+<details><summary>Screenshot</summary>
+<p>
+
+![Screenshot-image-link](task_git_basics/0.0.1-coursera_2.png)
+
+</p>
+</details>
+
+<details><summary>Screenshot</summary>
+<p>
+
+![Screenshot-image-link](task_git_basics/0.0.1-coursera_3.png)
+
+</p>
+</details>
+
+<details><summary>Screenshot</summary>
+<p>
+
+![Screenshot-image-link](task_git_basics/0.0.1-coursera_4.png)
 
 </p>
 </details>

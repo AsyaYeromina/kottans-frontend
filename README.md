@@ -204,7 +204,9 @@ Some **control frames** can be used to make sure that the client is still connec
 WebSockets are the alternative to HTTP/2.
 
 #### 0.1.5 [Command Line Power User by wesbos](https://commandlinepoweruser.com/) (Additional)
+
 Nice short course for beginners with all the necessary commands for everyday usage. New for me - using trash instead of rm.
+
 ---
 
 ### 0.2. Git for Team Collaboration

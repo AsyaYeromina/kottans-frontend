@@ -196,6 +196,15 @@ It was interesting to read about persistent and parallel connections and caching
 - It was a little surprise for me how much other info is transferred between the client and the server, in addition to the information that the user requests.
 - The article is very rich for new information. So it worth re-reading it in the future for deeper understanding.
 
+
+#### 0.1.4 [How JavaScript works: Deep dive into WebSockets and HTTP/2 with SSE](https://blog.sessionstack.com/how-javascript-works-deep-dive-into-websockets-and-http-2-with-sse-how-to-pick-the-right-path-584e6b8e3bf7) (Additional)
+
+WebSockets give the opportunity to have a **persistent** connection between the client and the server and both parties can start sending data at any time. The connection is **bidirectional**. Data is transferred through a WebSocket as **messages**, each of which consists of one or more **frames** containing the data you are sending (the payload).
+Some **control frames** can be used to make sure that the client is still connected. Client (or server) can send a ping to the other party, which sends a pong as an answer. That's called the heartbeating.
+WebSockets are the alternative to HTTP/2.
+
+#### 0.1.5 [Command Line Power User by wesbos](https://commandlinepoweruser.com/) (Additional)
+Nice short course for beginners with all the necessary commands for everyday usage. New for me - using trash instead of rm.
 ---
 
 ### 0.2. Git for Team Collaboration

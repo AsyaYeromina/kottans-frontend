@@ -253,6 +253,9 @@ I had passed it while doing task 0.0.Git Basics.
 </p>
 </details>
 
+
+If you have some problems you may find a solution in [this Flight rules for Git](https://github.com/k88hudson/git-flight-rules) - a short and simple instruction which explains the solution step-by-step.
+
 ---
 
 ## Front-End Basics

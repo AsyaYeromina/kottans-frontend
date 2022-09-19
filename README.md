@@ -276,6 +276,30 @@ There was no new info for me.
 </p>
 </details>
 
+#### 0.3.1. [Course: Intro to HTML & CSS (Coursera)](https://www.coursera.org/learn/html-css-javascript-for-web-developers) ([updated course in 2022](https://github.com/kottans/frontend/blob/2022_UA/tasks/html-css-intro.md))
+
+New for me: dettailed info about Browser Sync work.
+Relative sizing of text. The effect is cumulative (not overriding) when you specify them on subsequent elements. (when body text is 120% and some elements have 2em, they will have 240% text size not just 2em). It's easy and not new, but I've newer thought of using it.
+New short info about Bootstrap which I never used before.
+
+<details><summary>Screenshot</summary>
+<p>
+
+![Screenshot-image-link](task_html_css_intro/0.3.1-codecademy_html_css_js1.png)
+
+</p>
+</details>
+
+
+<details><summary>Screenshot</summary>
+<p>
+
+![Screenshot-image-link](task_html_css_intro/0.3.1-codecademy_html_css_js2.png)
+
+</p>
+</details>
+
+
 #### 0.3.2. [Course: Learn HTML(Codeacademy)](https://www.codecademy.com/learn/learn-html)
 It's a useful course for making first steps in HTML.
 New for me:

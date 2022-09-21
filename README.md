@@ -430,6 +430,23 @@ I've finished the Froggy game and Grid garden game before the course started.
 </p>
 </details>
 
+#### 0.4.3 [Responsive web design basics](https://web.dev/i18n/en/responsive-web-design-basics/) ([updated course in 2022](https://github.com/kottans/frontend/blob/2022_UA/tasks/html-css-responsive.md))
+Tha article mentions the necessarity of setting the viewport and scallability (`<meta name="viewport" content="width=device-width, initial-scale=1">`)
+We should limit images so they will not stretch larger than the viewport and cause the appearance of the scroll. And also `width` and `height` attributes to reserve the space for image before loading.
+```
+    img {
+        max-width: 100%;
+        display: block;
+    }
+```
+Optimizing text for reading: Classic readability theory suggests that an ideal column should contain 70 to 80 characters per line (about 8 to 10 words in English). Use this rule for defining new breakpoints.
+
+
+**0.4.4 [Specificity](https://developer.mozilla.org/uk/docs/Web/CSS/Specificity) Additional. Read later!**
+for faster decision or in case of doubt use [specificity calculator](https://specificity.keegan.st/)
+
+**0.4.5 [11 things I learned reading the flexbox spec](https://medium.com/hackernoon/11-things-i-learned-reading-the-flexbox-spec-5f0c799c776b) Additional. Read later!**
+
 ---
 
 
